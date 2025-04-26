@@ -1,6 +1,6 @@
 // `include "Addition_Subtraction.v"
 `timescale 1ns/100ps
-`include "comparator.v"
+// `include "comparator.v"
  
 module potential_adder(
     input wire clear,                                              //clear to start timestep
@@ -107,7 +107,7 @@ module potential_adder(
     always@(greater, weight_added, weight_added_u, greater_izhi, weight_added_Q, greater_Q) begin
 
         case (model)
-
+ 
             //LIF
             2'b00: begin
                 // Compare to see if spiked

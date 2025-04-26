@@ -94,6 +94,7 @@ module network_interface(
 
     //send the spike whenever
     always @(clear, spike0, spike1, spike2, spike3, spike4, spike5, spike6, spike7, spike8, spike9) begin
+        #0.5
         spike_register[0] = spike0;
         spike_register[1] = spike1;
         spike_register[2] = spike2;

@@ -1,0 +1,41 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x555ca0b27080 .scope module, "test_add" "test_add" 2 11;
+ .timescale 0 0;
+v0x555ca0b4ad90_0 .var "a", 31 0;
+v0x555ca0b4ae80_0 .var "b", 31 0;
+v0x555ca0b4af50_0 .net "result", 31 0, L_0x555ca0b4b050;  1 drivers
+S_0x555ca0b390c0 .scope module, "ex" "example" 2 16, 2 1 0, S_0x555ca0b27080;
+ .timescale 0 0;
+    .port_info 0 /INPUT 32 "a";
+    .port_info 1 /INPUT 32 "b";
+    .port_info 2 /OUTPUT 32 "result";
+v0x555ca0b017b0_0 .net "a", 31 0, v0x555ca0b4ad90_0;  1 drivers
+v0x555ca0b01ba0_0 .net "b", 31 0, v0x555ca0b4ae80_0;  1 drivers
+v0x555ca0b4ac50_0 .net "result", 31 0, L_0x555ca0b4b050;  alias, 1 drivers
+L_0x555ca0b4b050 .arith/sub 32, v0x555ca0b4ad90_0, v0x555ca0b4ae80_0;
+    .scope S_0x555ca0b27080;
+T_0 ;
+    %pushi/vec4 100, 0, 32;
+    %store/vec4 v0x555ca0b4ad90_0, 0, 32;
+    %pushi/vec4 200, 0, 32;
+    %store/vec4 v0x555ca0b4ae80_0, 0, 32;
+    %end;
+    .thread T_0;
+    .scope S_0x555ca0b27080;
+T_1 ;
+    %vpi_call 2 25 "$monitor", $time, "  a: %d\012                     b: %d\012                     result: %d\012                     ", v0x555ca0b4ad90_0, v0x555ca0b4ae80_0, v0x555ca0b4af50_0 {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "test.v";

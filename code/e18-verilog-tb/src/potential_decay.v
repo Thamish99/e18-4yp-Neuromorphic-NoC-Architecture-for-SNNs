@@ -1,6 +1,8 @@
 `timescale 1ns/100ps
 //Potential decay for divinding by 1, 2, 4, and 8 only
-  
+// `include "Addition_Subtraction.v"
+// `include "Multiplication.v"
+
 module potential_decay(
     input wire CLK,                             //input clock
     input wire clear,                           //clear signal to define timesteps
@@ -11,7 +13,7 @@ module potential_decay(
     input wire[31:0] new_potential,             //input from the potential adder side
     output reg[31:0] output_potential_decay     //output of the new potential value after decay
     );   
-    
+     
     reg [1:0] sign;                         //sign of the potential value
     reg [7:0] exponent;                     //get exponent of membrane potential value 
     reg [22:0] mantissa;                    //get mantissa from membrane potential value
@@ -39,12 +41,11 @@ module potential_decay(
     reg[31:0] number_divided_by_4;          //register to store divided number 4
     reg[11:0] neuron_address;               //neruon address
     reg[31:0] membrane_potential;           //memebrane potential
-    reg[31:0] output_potential_decay_izhi;     //output potential for izhikevich model
+    wire[31:0] output_potential_decay_izhi;     //output potential for izhikevich model
     reg[31:0] output_potential_decay_LIF;       //output potential of izhikevich model
     wire[31:0] v_squared;     //v squared
     wire[31:0] izi_first_term;        //izikevich model first term
     wire[31:0] izi_second_term;       //izikevich model second term
-    wire[31:0] izi_final;             //izikevich model final addition
 
     //addition module instantiate
     Addition_Subtraction Addition_Subtraction_1(number_divided_by_2, number_divided_by_4, 1'b0, Exception, result_divide_by_2_plus_4);
@@ -70,7 +71,7 @@ module potential_decay(
     Multiplication Multiplication_izi_2(membrane_potential, 32'b01000000101000000000000000000000, Exception3, Overflow3, Underflow3, izi_second_term);
 
     //izikevich addition without U and I
-    Addition_Subtraction Addition_Subtraction_izi_1(izi_first_term, izi_second_term, 1'b0, Exception4, izi_final);
+    Addition_Subtraction Addition_Subtraction_izi_1(izi_first_term, izi_second_term, 1'b0, Exception4, output_potential_decay_izhi);
 
     //clear signal initiate
     always @(clear) begin
@@ -121,7 +122,6 @@ module potential_decay(
     always @(output_potential_decay_LIF, output_potential_decay_izhi,v_squared) begin
         
         case (model)
-
             2'b00: begin
                 output_potential_decay = output_potential_decay_LIF;
             end

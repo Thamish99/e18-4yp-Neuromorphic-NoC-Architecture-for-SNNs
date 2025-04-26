@@ -1,4 +1,4 @@
-// `include "potential_decay.v"
+`include "potential_decay.v"
 `include "Addition_Subtraction.v"
 `include "Multiplication.v"
 `timescale 1ns/100ps
@@ -8,14 +8,13 @@ module test_potential_decay;
     reg CLK;
     reg clear;
     wire[31:0] output_potential; 
-    reg[31:0] input_potential;
     reg[3:0] decay_rate;
     reg[3:0] CLK_count;
-    reg[11:0] neuron_addresses[0:1023];
-    reg[31:0] membrane_potential[0:1024-1];        //initialize membrane potential values
-    wire[31:0] results_potential_decay[0:1024-1];     //store results of potential decay
+    reg[11:0] neuron_addresses[0:10];
+    reg[31:0] membrane_potential[0:10-1];        //initialize membrane potential values
+    wire[31:0] results_potential_decay[0:10-1];     //store results of potential decay
     reg[1:0] model;
-    wire[31:0] final_potential[0:1024-1];             //potential form the potential adder
+    wire[31:0] final_potential[0:10-1];             //potential form the potential adder
 
     reg[119:0] neuron_addresses_initialization;                 //input to initialize the neruon addresses
 
@@ -27,7 +26,7 @@ module test_potential_decay;
     //generate 1024 potential decay units
     genvar i;
     generate
-        for(i=0; i<1024; i=i+1) begin
+        for(i=0; i<10; i=i+1) begin
             potential_decay pd(
                 .CLK(CLK),
                 .clear(clear),
@@ -56,7 +55,6 @@ module test_potential_decay;
         CLK_count = 0;
         clear = 1'b0;
         decay_rate = 3'd1;
-        input_potential = 32'b01000001001000000000000000000000;
         model = 2'b00;
 
         //neuron addresses
@@ -84,8 +82,7 @@ module test_potential_decay;
     // Print the outputs when ever the inputs change
     initial
     begin
-
-        $monitor($time, " Input Potential: %b\n                     After Potential Decay: %b", input_potential, output_potential_decay);
+        $monitor($time, "After Potential Decay: %b", results_potential_decay[0]);
 
     end
 

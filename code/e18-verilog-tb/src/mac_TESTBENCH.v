@@ -1,4 +1,6 @@
 `timescale 1ns/100ps
+`include "mac0.v"
+`include "Addition_Subtraction.v"
 
 module mac_TESTBENCH();
 
@@ -15,14 +17,14 @@ module mac_TESTBENCH();
     //generate 10 accumulators
     genvar i;
     generate
-        for(i=0; i<10; i=i+1) begin
-            mac m(
-                .CLK(CLK),
-                .neuron_address(neuron_addresses[i]),
-                .source_address(source_addresses[i]),
-                .weights_array(weights_arrays[i]),
-                .source_addresses_array(source_addresses_arrays[i]),
-                .clear(clear),
+        for(i=0; i<1; i=i+1) begin
+            mac0 m(
+                .CLK_Mac(CLK),
+                //.neuron_address(neuron_addresses[i]),
+               // .source_address(source_addresses[i]),
+                //.weights_array(weights_arrays[i]),
+                //.source_addresses_array(source_addresses_arrays[i]),
+               // .clear(clear),
                 .mult_output(results[i])
             );
         end
@@ -33,7 +35,7 @@ module mac_TESTBENCH();
     // Print the outputs when ever the inputs change
     initial
     begin
-        $monitor($time, "  source_address: %b           neuron_address: %b           result: %b              ", source_addresses[0], neuron_addresses[0], results[8]);
+        $monitor($time, "  source_address: %b           neuron_address: %b           result: %b              ", source_addresses[0], neuron_addresses[0], results[0]);
     end
 
     // Observe the timing on gtkwave
@@ -87,9 +89,9 @@ module mac_TESTBENCH();
         weights_arrays[8] = {32'h4290b333, 32'h41975c29, 32'h42470a3d, 32'h0, 32'h42ae3852};
         weights_arrays[9] = {32'h4290b333, 32'h41975c29, 32'h42470a3d, 32'h0, 32'h42ae3852};
 
-        #40
-        source_addresses[8] = 12'd3;
-        source_addresses[4] = 12'd1;
+        // #40
+        // source_addresses[0] = 12'd3;
+        // source_addresses[4] = 12'd1;
 
         // #4
         // source_addresses[8] = 12'd4; 
@@ -101,8 +103,9 @@ module mac_TESTBENCH();
         // #4
         // source_addresses[8] = 12'd7;       
 
-        #100
-        done = 1'b1;
+        // #100
+        // done = 1'b1;
+        #200
         $finish;    
 
     end

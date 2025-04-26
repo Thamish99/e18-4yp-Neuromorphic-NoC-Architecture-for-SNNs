@@ -1,6 +1,5 @@
 `include "Multiplication.v"
 `timescale 1ns/100ps
-
 module Multiplication_tb;
 
     reg CLK;
