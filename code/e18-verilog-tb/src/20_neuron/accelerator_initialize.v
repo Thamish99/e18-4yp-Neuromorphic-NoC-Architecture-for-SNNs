@@ -67,7 +67,7 @@
 // `include "Addition_Subtraction.v"
 // `include "Multiplication.v"
 // `include "potential_adder.v"
-// `include "network_interface.v"
+// `include "network_interface_static.v"
 
 module accelerator_initialize;
 
