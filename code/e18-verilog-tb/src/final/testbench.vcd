@@ -1,0 +1,5065 @@
+$date
+	Sun Aug 24 09:27:05 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module testbench $end
+$var wire 12 ! spike_out_source9 [11:0] $end
+$var wire 12 " spike_out_source8 [11:0] $end
+$var wire 12 # spike_out_source7 [11:0] $end
+$var wire 12 $ spike_out_source6 [11:0] $end
+$var wire 12 % spike_out_source5 [11:0] $end
+$var wire 12 & spike_out_source4 [11:0] $end
+$var wire 12 ' spike_out_source3 [11:0] $end
+$var wire 12 ( spike_out_source2 [11:0] $end
+$var wire 12 ) spike_out_source1 [11:0] $end
+$var wire 12 * spike_out_source0 [11:0] $end
+$var reg 1 + CLK $end
+$var reg 4 , CLK_count [3:0] $end
+$var reg 32 - a [31:0] $end
+$var reg 32 . b [31:0] $end
+$var reg 32 / c [31:0] $end
+$var reg 1 0 clear $end
+$var reg 55 1 connection_pointer_initialization [54:0] $end
+$var reg 32 2 d [31:0] $end
+$var reg 4 3 decay_rate [3:0] $end
+$var reg 360 4 downstream_connections_initialization [359:0] $end
+$var reg 2 5 model [1:0] $end
+$var reg 120 6 neuron_addresses_initialization [119:0] $end
+$var reg 32 7 u_initialize [31:0] $end
+$scope begin genblk1[0] $end
+$scope module pd $end
+$var wire 1 0 clear $end
+$var wire 1 8 set $end
+$var wire 32 9 result_divide_by_2_plus_4 [31:0] $end
+$var wire 32 : new_potential [31:0] $end
+$var wire 1 ; Exception $end
+$var reg 8 < adjusted_exponent [7:0] $end
+$var reg 4 = decay_rate [3:0] $end
+$var reg 1 > decayoutput0 $end
+$var reg 1 ? decayoutput1 $end
+$var reg 1 @ decayoutput2 $end
+$var reg 1 A decayoutput3 $end
+$var reg 1 B decayoutput4 $end
+$var reg 1 C decayoutput5 $end
+$var reg 1 D decayoutput6 $end
+$var reg 1 E decayoutput7 $end
+$var reg 1 F decayoutput8 $end
+$var reg 1 G decayoutput9 $end
+$var reg 1 H done $end
+$var reg 8 I exponent [7:0] $end
+$var reg 8 J exponent_divided_by_2 [7:0] $end
+$var reg 8 K exponent_divided_by_4 [7:0] $end
+$var reg 1 L flip $end
+$var reg 23 M mantissa [22:0] $end
+$var reg 32 N membrane_potential [31:0] $end
+$var reg 2 O model [1:0] $end
+$var reg 12 P neuron_address [11:0] $end
+$var reg 32 Q number_divided_by_2 [31:0] $end
+$var reg 32 R number_divided_by_4 [31:0] $end
+$var reg 32 S output_potential_decay [31:0] $end
+$var reg 32 T output_potential_decay_LIF [31:0] $end
+$var reg 2 U sign [1:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 V AddBar_Sub $end
+$var wire 1 ; Exception $end
+$var wire 32 W a_operand [31:0] $end
+$var wire 32 X b_operand [31:0] $end
+$var wire 1 Y operation_sub_addBar $end
+$var wire 1 Z output_sign $end
+$var wire 25 [ subtraction_diff [24:0] $end
+$var wire 31 \ sub_diff [30:0] $end
+$var wire 24 ] significand_sub_complement [23:0] $end
+$var wire 25 ^ significand_sub [24:0] $end
+$var wire 24 _ significand_b_add_sub [23:0] $end
+$var wire 24 ` significand_b [23:0] $end
+$var wire 25 a significand_add [24:0] $end
+$var wire 24 b significand_a [23:0] $end
+$var wire 32 c result [31:0] $end
+$var wire 1 d perform $end
+$var wire 32 e operand_b [31:0] $end
+$var wire 32 f operand_a [31:0] $end
+$var wire 8 g exponent_sub [7:0] $end
+$var wire 8 h exponent_diff [7:0] $end
+$var wire 8 i exponent_b_add_sub [7:0] $end
+$var wire 31 j add_sum [30:0] $end
+$var wire 1 k Comp_enable $end
+$scope module pe $end
+$var wire 8 l Exponent_a [7:0] $end
+$var wire 25 m significand [24:0] $end
+$var wire 8 n Exponent_sub [7:0] $end
+$var reg 25 o Significand [24:0] $end
+$var reg 5 p shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[1] $end
+$scope module pd $end
+$var wire 1 0 clear $end
+$var wire 1 q set $end
+$var wire 32 r result_divide_by_2_plus_4 [31:0] $end
+$var wire 32 s new_potential [31:0] $end
+$var wire 1 t Exception $end
+$var reg 8 u adjusted_exponent [7:0] $end
+$var reg 4 v decay_rate [3:0] $end
+$var reg 1 w decayoutput0 $end
+$var reg 1 x decayoutput1 $end
+$var reg 1 y decayoutput2 $end
+$var reg 1 z decayoutput3 $end
+$var reg 1 { decayoutput4 $end
+$var reg 1 | decayoutput5 $end
+$var reg 1 } decayoutput6 $end
+$var reg 1 ~ decayoutput7 $end
+$var reg 1 !" decayoutput8 $end
+$var reg 1 "" decayoutput9 $end
+$var reg 1 #" done $end
+$var reg 8 $" exponent [7:0] $end
+$var reg 8 %" exponent_divided_by_2 [7:0] $end
+$var reg 8 &" exponent_divided_by_4 [7:0] $end
+$var reg 1 '" flip $end
+$var reg 23 (" mantissa [22:0] $end
+$var reg 32 )" membrane_potential [31:0] $end
+$var reg 2 *" model [1:0] $end
+$var reg 12 +" neuron_address [11:0] $end
+$var reg 32 ," number_divided_by_2 [31:0] $end
+$var reg 32 -" number_divided_by_4 [31:0] $end
+$var reg 32 ." output_potential_decay [31:0] $end
+$var reg 32 /" output_potential_decay_LIF [31:0] $end
+$var reg 2 0" sign [1:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 1" AddBar_Sub $end
+$var wire 1 t Exception $end
+$var wire 32 2" a_operand [31:0] $end
+$var wire 32 3" b_operand [31:0] $end
+$var wire 1 4" operation_sub_addBar $end
+$var wire 1 5" output_sign $end
+$var wire 25 6" subtraction_diff [24:0] $end
+$var wire 31 7" sub_diff [30:0] $end
+$var wire 24 8" significand_sub_complement [23:0] $end
+$var wire 25 9" significand_sub [24:0] $end
+$var wire 24 :" significand_b_add_sub [23:0] $end
+$var wire 24 ;" significand_b [23:0] $end
+$var wire 25 <" significand_add [24:0] $end
+$var wire 24 =" significand_a [23:0] $end
+$var wire 32 >" result [31:0] $end
+$var wire 1 ?" perform $end
+$var wire 32 @" operand_b [31:0] $end
+$var wire 32 A" operand_a [31:0] $end
+$var wire 8 B" exponent_sub [7:0] $end
+$var wire 8 C" exponent_diff [7:0] $end
+$var wire 8 D" exponent_b_add_sub [7:0] $end
+$var wire 31 E" add_sum [30:0] $end
+$var wire 1 F" Comp_enable $end
+$scope module pe $end
+$var wire 8 G" Exponent_a [7:0] $end
+$var wire 25 H" significand [24:0] $end
+$var wire 8 I" Exponent_sub [7:0] $end
+$var reg 25 J" Significand [24:0] $end
+$var reg 5 K" shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$scope module pd $end
+$var wire 1 0 clear $end
+$var wire 1 L" set $end
+$var wire 32 M" result_divide_by_2_plus_4 [31:0] $end
+$var wire 32 N" new_potential [31:0] $end
+$var wire 1 O" Exception $end
+$var reg 8 P" adjusted_exponent [7:0] $end
+$var reg 4 Q" decay_rate [3:0] $end
+$var reg 1 R" decayoutput0 $end
+$var reg 1 S" decayoutput1 $end
+$var reg 1 T" decayoutput2 $end
+$var reg 1 U" decayoutput3 $end
+$var reg 1 V" decayoutput4 $end
+$var reg 1 W" decayoutput5 $end
+$var reg 1 X" decayoutput6 $end
+$var reg 1 Y" decayoutput7 $end
+$var reg 1 Z" decayoutput8 $end
+$var reg 1 [" decayoutput9 $end
+$var reg 1 \" done $end
+$var reg 8 ]" exponent [7:0] $end
+$var reg 8 ^" exponent_divided_by_2 [7:0] $end
+$var reg 8 _" exponent_divided_by_4 [7:0] $end
+$var reg 1 `" flip $end
+$var reg 23 a" mantissa [22:0] $end
+$var reg 32 b" membrane_potential [31:0] $end
+$var reg 2 c" model [1:0] $end
+$var reg 12 d" neuron_address [11:0] $end
+$var reg 32 e" number_divided_by_2 [31:0] $end
+$var reg 32 f" number_divided_by_4 [31:0] $end
+$var reg 32 g" output_potential_decay [31:0] $end
+$var reg 32 h" output_potential_decay_LIF [31:0] $end
+$var reg 2 i" sign [1:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 j" AddBar_Sub $end
+$var wire 1 O" Exception $end
+$var wire 32 k" a_operand [31:0] $end
+$var wire 32 l" b_operand [31:0] $end
+$var wire 1 m" operation_sub_addBar $end
+$var wire 1 n" output_sign $end
+$var wire 25 o" subtraction_diff [24:0] $end
+$var wire 31 p" sub_diff [30:0] $end
+$var wire 24 q" significand_sub_complement [23:0] $end
+$var wire 25 r" significand_sub [24:0] $end
+$var wire 24 s" significand_b_add_sub [23:0] $end
+$var wire 24 t" significand_b [23:0] $end
+$var wire 25 u" significand_add [24:0] $end
+$var wire 24 v" significand_a [23:0] $end
+$var wire 32 w" result [31:0] $end
+$var wire 1 x" perform $end
+$var wire 32 y" operand_b [31:0] $end
+$var wire 32 z" operand_a [31:0] $end
+$var wire 8 {" exponent_sub [7:0] $end
+$var wire 8 |" exponent_diff [7:0] $end
+$var wire 8 }" exponent_b_add_sub [7:0] $end
+$var wire 31 ~" add_sum [30:0] $end
+$var wire 1 !# Comp_enable $end
+$scope module pe $end
+$var wire 8 "# Exponent_a [7:0] $end
+$var wire 25 ## significand [24:0] $end
+$var wire 8 $# Exponent_sub [7:0] $end
+$var reg 25 %# Significand [24:0] $end
+$var reg 5 &# shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$scope module pd $end
+$var wire 1 0 clear $end
+$var wire 1 '# set $end
+$var wire 32 (# result_divide_by_2_plus_4 [31:0] $end
+$var wire 32 )# new_potential [31:0] $end
+$var wire 1 *# Exception $end
+$var reg 8 +# adjusted_exponent [7:0] $end
+$var reg 4 ,# decay_rate [3:0] $end
+$var reg 1 -# decayoutput0 $end
+$var reg 1 .# decayoutput1 $end
+$var reg 1 /# decayoutput2 $end
+$var reg 1 0# decayoutput3 $end
+$var reg 1 1# decayoutput4 $end
+$var reg 1 2# decayoutput5 $end
+$var reg 1 3# decayoutput6 $end
+$var reg 1 4# decayoutput7 $end
+$var reg 1 5# decayoutput8 $end
+$var reg 1 6# decayoutput9 $end
+$var reg 1 7# done $end
+$var reg 8 8# exponent [7:0] $end
+$var reg 8 9# exponent_divided_by_2 [7:0] $end
+$var reg 8 :# exponent_divided_by_4 [7:0] $end
+$var reg 1 ;# flip $end
+$var reg 23 <# mantissa [22:0] $end
+$var reg 32 =# membrane_potential [31:0] $end
+$var reg 2 ># model [1:0] $end
+$var reg 12 ?# neuron_address [11:0] $end
+$var reg 32 @# number_divided_by_2 [31:0] $end
+$var reg 32 A# number_divided_by_4 [31:0] $end
+$var reg 32 B# output_potential_decay [31:0] $end
+$var reg 32 C# output_potential_decay_LIF [31:0] $end
+$var reg 2 D# sign [1:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 E# AddBar_Sub $end
+$var wire 1 *# Exception $end
+$var wire 32 F# a_operand [31:0] $end
+$var wire 32 G# b_operand [31:0] $end
+$var wire 1 H# operation_sub_addBar $end
+$var wire 1 I# output_sign $end
+$var wire 25 J# subtraction_diff [24:0] $end
+$var wire 31 K# sub_diff [30:0] $end
+$var wire 24 L# significand_sub_complement [23:0] $end
+$var wire 25 M# significand_sub [24:0] $end
+$var wire 24 N# significand_b_add_sub [23:0] $end
+$var wire 24 O# significand_b [23:0] $end
+$var wire 25 P# significand_add [24:0] $end
+$var wire 24 Q# significand_a [23:0] $end
+$var wire 32 R# result [31:0] $end
+$var wire 1 S# perform $end
+$var wire 32 T# operand_b [31:0] $end
+$var wire 32 U# operand_a [31:0] $end
+$var wire 8 V# exponent_sub [7:0] $end
+$var wire 8 W# exponent_diff [7:0] $end
+$var wire 8 X# exponent_b_add_sub [7:0] $end
+$var wire 31 Y# add_sum [30:0] $end
+$var wire 1 Z# Comp_enable $end
+$scope module pe $end
+$var wire 8 [# Exponent_a [7:0] $end
+$var wire 25 \# significand [24:0] $end
+$var wire 8 ]# Exponent_sub [7:0] $end
+$var reg 25 ^# Significand [24:0] $end
+$var reg 5 _# shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[4] $end
+$scope module pd $end
+$var wire 1 0 clear $end
+$var wire 1 `# set $end
+$var wire 32 a# result_divide_by_2_plus_4 [31:0] $end
+$var wire 32 b# new_potential [31:0] $end
+$var wire 1 c# Exception $end
+$var reg 8 d# adjusted_exponent [7:0] $end
+$var reg 4 e# decay_rate [3:0] $end
+$var reg 1 f# decayoutput0 $end
+$var reg 1 g# decayoutput1 $end
+$var reg 1 h# decayoutput2 $end
+$var reg 1 i# decayoutput3 $end
+$var reg 1 j# decayoutput4 $end
+$var reg 1 k# decayoutput5 $end
+$var reg 1 l# decayoutput6 $end
+$var reg 1 m# decayoutput7 $end
+$var reg 1 n# decayoutput8 $end
+$var reg 1 o# decayoutput9 $end
+$var reg 1 p# done $end
+$var reg 8 q# exponent [7:0] $end
+$var reg 8 r# exponent_divided_by_2 [7:0] $end
+$var reg 8 s# exponent_divided_by_4 [7:0] $end
+$var reg 1 t# flip $end
+$var reg 23 u# mantissa [22:0] $end
+$var reg 32 v# membrane_potential [31:0] $end
+$var reg 2 w# model [1:0] $end
+$var reg 12 x# neuron_address [11:0] $end
+$var reg 32 y# number_divided_by_2 [31:0] $end
+$var reg 32 z# number_divided_by_4 [31:0] $end
+$var reg 32 {# output_potential_decay [31:0] $end
+$var reg 32 |# output_potential_decay_LIF [31:0] $end
+$var reg 2 }# sign [1:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 ~# AddBar_Sub $end
+$var wire 1 c# Exception $end
+$var wire 32 !$ a_operand [31:0] $end
+$var wire 32 "$ b_operand [31:0] $end
+$var wire 1 #$ operation_sub_addBar $end
+$var wire 1 $$ output_sign $end
+$var wire 25 %$ subtraction_diff [24:0] $end
+$var wire 31 &$ sub_diff [30:0] $end
+$var wire 24 '$ significand_sub_complement [23:0] $end
+$var wire 25 ($ significand_sub [24:0] $end
+$var wire 24 )$ significand_b_add_sub [23:0] $end
+$var wire 24 *$ significand_b [23:0] $end
+$var wire 25 +$ significand_add [24:0] $end
+$var wire 24 ,$ significand_a [23:0] $end
+$var wire 32 -$ result [31:0] $end
+$var wire 1 .$ perform $end
+$var wire 32 /$ operand_b [31:0] $end
+$var wire 32 0$ operand_a [31:0] $end
+$var wire 8 1$ exponent_sub [7:0] $end
+$var wire 8 2$ exponent_diff [7:0] $end
+$var wire 8 3$ exponent_b_add_sub [7:0] $end
+$var wire 31 4$ add_sum [30:0] $end
+$var wire 1 5$ Comp_enable $end
+$scope module pe $end
+$var wire 8 6$ Exponent_a [7:0] $end
+$var wire 25 7$ significand [24:0] $end
+$var wire 8 8$ Exponent_sub [7:0] $end
+$var reg 25 9$ Significand [24:0] $end
+$var reg 5 :$ shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[5] $end
+$scope module pd $end
+$var wire 1 0 clear $end
+$var wire 1 ;$ set $end
+$var wire 32 <$ result_divide_by_2_plus_4 [31:0] $end
+$var wire 32 =$ new_potential [31:0] $end
+$var wire 1 >$ Exception $end
+$var reg 8 ?$ adjusted_exponent [7:0] $end
+$var reg 4 @$ decay_rate [3:0] $end
+$var reg 1 A$ decayoutput0 $end
+$var reg 1 B$ decayoutput1 $end
+$var reg 1 C$ decayoutput2 $end
+$var reg 1 D$ decayoutput3 $end
+$var reg 1 E$ decayoutput4 $end
+$var reg 1 F$ decayoutput5 $end
+$var reg 1 G$ decayoutput6 $end
+$var reg 1 H$ decayoutput7 $end
+$var reg 1 I$ decayoutput8 $end
+$var reg 1 J$ decayoutput9 $end
+$var reg 1 K$ done $end
+$var reg 8 L$ exponent [7:0] $end
+$var reg 8 M$ exponent_divided_by_2 [7:0] $end
+$var reg 8 N$ exponent_divided_by_4 [7:0] $end
+$var reg 1 O$ flip $end
+$var reg 23 P$ mantissa [22:0] $end
+$var reg 32 Q$ membrane_potential [31:0] $end
+$var reg 2 R$ model [1:0] $end
+$var reg 12 S$ neuron_address [11:0] $end
+$var reg 32 T$ number_divided_by_2 [31:0] $end
+$var reg 32 U$ number_divided_by_4 [31:0] $end
+$var reg 32 V$ output_potential_decay [31:0] $end
+$var reg 32 W$ output_potential_decay_LIF [31:0] $end
+$var reg 2 X$ sign [1:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 Y$ AddBar_Sub $end
+$var wire 1 >$ Exception $end
+$var wire 32 Z$ a_operand [31:0] $end
+$var wire 32 [$ b_operand [31:0] $end
+$var wire 1 \$ operation_sub_addBar $end
+$var wire 1 ]$ output_sign $end
+$var wire 25 ^$ subtraction_diff [24:0] $end
+$var wire 31 _$ sub_diff [30:0] $end
+$var wire 24 `$ significand_sub_complement [23:0] $end
+$var wire 25 a$ significand_sub [24:0] $end
+$var wire 24 b$ significand_b_add_sub [23:0] $end
+$var wire 24 c$ significand_b [23:0] $end
+$var wire 25 d$ significand_add [24:0] $end
+$var wire 24 e$ significand_a [23:0] $end
+$var wire 32 f$ result [31:0] $end
+$var wire 1 g$ perform $end
+$var wire 32 h$ operand_b [31:0] $end
+$var wire 32 i$ operand_a [31:0] $end
+$var wire 8 j$ exponent_sub [7:0] $end
+$var wire 8 k$ exponent_diff [7:0] $end
+$var wire 8 l$ exponent_b_add_sub [7:0] $end
+$var wire 31 m$ add_sum [30:0] $end
+$var wire 1 n$ Comp_enable $end
+$scope module pe $end
+$var wire 8 o$ Exponent_a [7:0] $end
+$var wire 25 p$ significand [24:0] $end
+$var wire 8 q$ Exponent_sub [7:0] $end
+$var reg 25 r$ Significand [24:0] $end
+$var reg 5 s$ shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[6] $end
+$scope module pd $end
+$var wire 1 0 clear $end
+$var wire 1 t$ set $end
+$var wire 32 u$ result_divide_by_2_plus_4 [31:0] $end
+$var wire 32 v$ new_potential [31:0] $end
+$var wire 1 w$ Exception $end
+$var reg 8 x$ adjusted_exponent [7:0] $end
+$var reg 4 y$ decay_rate [3:0] $end
+$var reg 1 z$ decayoutput0 $end
+$var reg 1 {$ decayoutput1 $end
+$var reg 1 |$ decayoutput2 $end
+$var reg 1 }$ decayoutput3 $end
+$var reg 1 ~$ decayoutput4 $end
+$var reg 1 !% decayoutput5 $end
+$var reg 1 "% decayoutput6 $end
+$var reg 1 #% decayoutput7 $end
+$var reg 1 $% decayoutput8 $end
+$var reg 1 %% decayoutput9 $end
+$var reg 1 &% done $end
+$var reg 8 '% exponent [7:0] $end
+$var reg 8 (% exponent_divided_by_2 [7:0] $end
+$var reg 8 )% exponent_divided_by_4 [7:0] $end
+$var reg 1 *% flip $end
+$var reg 23 +% mantissa [22:0] $end
+$var reg 32 ,% membrane_potential [31:0] $end
+$var reg 2 -% model [1:0] $end
+$var reg 12 .% neuron_address [11:0] $end
+$var reg 32 /% number_divided_by_2 [31:0] $end
+$var reg 32 0% number_divided_by_4 [31:0] $end
+$var reg 32 1% output_potential_decay [31:0] $end
+$var reg 32 2% output_potential_decay_LIF [31:0] $end
+$var reg 2 3% sign [1:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 4% AddBar_Sub $end
+$var wire 1 w$ Exception $end
+$var wire 32 5% a_operand [31:0] $end
+$var wire 32 6% b_operand [31:0] $end
+$var wire 1 7% operation_sub_addBar $end
+$var wire 1 8% output_sign $end
+$var wire 25 9% subtraction_diff [24:0] $end
+$var wire 31 :% sub_diff [30:0] $end
+$var wire 24 ;% significand_sub_complement [23:0] $end
+$var wire 25 <% significand_sub [24:0] $end
+$var wire 24 =% significand_b_add_sub [23:0] $end
+$var wire 24 >% significand_b [23:0] $end
+$var wire 25 ?% significand_add [24:0] $end
+$var wire 24 @% significand_a [23:0] $end
+$var wire 32 A% result [31:0] $end
+$var wire 1 B% perform $end
+$var wire 32 C% operand_b [31:0] $end
+$var wire 32 D% operand_a [31:0] $end
+$var wire 8 E% exponent_sub [7:0] $end
+$var wire 8 F% exponent_diff [7:0] $end
+$var wire 8 G% exponent_b_add_sub [7:0] $end
+$var wire 31 H% add_sum [30:0] $end
+$var wire 1 I% Comp_enable $end
+$scope module pe $end
+$var wire 8 J% Exponent_a [7:0] $end
+$var wire 25 K% significand [24:0] $end
+$var wire 8 L% Exponent_sub [7:0] $end
+$var reg 25 M% Significand [24:0] $end
+$var reg 5 N% shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[7] $end
+$scope module pd $end
+$var wire 1 0 clear $end
+$var wire 1 O% set $end
+$var wire 32 P% result_divide_by_2_plus_4 [31:0] $end
+$var wire 32 Q% new_potential [31:0] $end
+$var wire 1 R% Exception $end
+$var reg 8 S% adjusted_exponent [7:0] $end
+$var reg 4 T% decay_rate [3:0] $end
+$var reg 1 U% decayoutput0 $end
+$var reg 1 V% decayoutput1 $end
+$var reg 1 W% decayoutput2 $end
+$var reg 1 X% decayoutput3 $end
+$var reg 1 Y% decayoutput4 $end
+$var reg 1 Z% decayoutput5 $end
+$var reg 1 [% decayoutput6 $end
+$var reg 1 \% decayoutput7 $end
+$var reg 1 ]% decayoutput8 $end
+$var reg 1 ^% decayoutput9 $end
+$var reg 1 _% done $end
+$var reg 8 `% exponent [7:0] $end
+$var reg 8 a% exponent_divided_by_2 [7:0] $end
+$var reg 8 b% exponent_divided_by_4 [7:0] $end
+$var reg 1 c% flip $end
+$var reg 23 d% mantissa [22:0] $end
+$var reg 32 e% membrane_potential [31:0] $end
+$var reg 2 f% model [1:0] $end
+$var reg 12 g% neuron_address [11:0] $end
+$var reg 32 h% number_divided_by_2 [31:0] $end
+$var reg 32 i% number_divided_by_4 [31:0] $end
+$var reg 32 j% output_potential_decay [31:0] $end
+$var reg 32 k% output_potential_decay_LIF [31:0] $end
+$var reg 2 l% sign [1:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 m% AddBar_Sub $end
+$var wire 1 R% Exception $end
+$var wire 32 n% a_operand [31:0] $end
+$var wire 32 o% b_operand [31:0] $end
+$var wire 1 p% operation_sub_addBar $end
+$var wire 1 q% output_sign $end
+$var wire 25 r% subtraction_diff [24:0] $end
+$var wire 31 s% sub_diff [30:0] $end
+$var wire 24 t% significand_sub_complement [23:0] $end
+$var wire 25 u% significand_sub [24:0] $end
+$var wire 24 v% significand_b_add_sub [23:0] $end
+$var wire 24 w% significand_b [23:0] $end
+$var wire 25 x% significand_add [24:0] $end
+$var wire 24 y% significand_a [23:0] $end
+$var wire 32 z% result [31:0] $end
+$var wire 1 {% perform $end
+$var wire 32 |% operand_b [31:0] $end
+$var wire 32 }% operand_a [31:0] $end
+$var wire 8 ~% exponent_sub [7:0] $end
+$var wire 8 !& exponent_diff [7:0] $end
+$var wire 8 "& exponent_b_add_sub [7:0] $end
+$var wire 31 #& add_sum [30:0] $end
+$var wire 1 $& Comp_enable $end
+$scope module pe $end
+$var wire 8 %& Exponent_a [7:0] $end
+$var wire 25 && significand [24:0] $end
+$var wire 8 '& Exponent_sub [7:0] $end
+$var reg 25 (& Significand [24:0] $end
+$var reg 5 )& shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[8] $end
+$scope module pd $end
+$var wire 1 0 clear $end
+$var wire 1 *& set $end
+$var wire 32 +& result_divide_by_2_plus_4 [31:0] $end
+$var wire 32 ,& new_potential [31:0] $end
+$var wire 1 -& Exception $end
+$var reg 8 .& adjusted_exponent [7:0] $end
+$var reg 4 /& decay_rate [3:0] $end
+$var reg 1 0& decayoutput0 $end
+$var reg 1 1& decayoutput1 $end
+$var reg 1 2& decayoutput2 $end
+$var reg 1 3& decayoutput3 $end
+$var reg 1 4& decayoutput4 $end
+$var reg 1 5& decayoutput5 $end
+$var reg 1 6& decayoutput6 $end
+$var reg 1 7& decayoutput7 $end
+$var reg 1 8& decayoutput8 $end
+$var reg 1 9& decayoutput9 $end
+$var reg 1 :& done $end
+$var reg 8 ;& exponent [7:0] $end
+$var reg 8 <& exponent_divided_by_2 [7:0] $end
+$var reg 8 =& exponent_divided_by_4 [7:0] $end
+$var reg 1 >& flip $end
+$var reg 23 ?& mantissa [22:0] $end
+$var reg 32 @& membrane_potential [31:0] $end
+$var reg 2 A& model [1:0] $end
+$var reg 12 B& neuron_address [11:0] $end
+$var reg 32 C& number_divided_by_2 [31:0] $end
+$var reg 32 D& number_divided_by_4 [31:0] $end
+$var reg 32 E& output_potential_decay [31:0] $end
+$var reg 32 F& output_potential_decay_LIF [31:0] $end
+$var reg 2 G& sign [1:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 H& AddBar_Sub $end
+$var wire 1 -& Exception $end
+$var wire 32 I& a_operand [31:0] $end
+$var wire 32 J& b_operand [31:0] $end
+$var wire 1 K& operation_sub_addBar $end
+$var wire 1 L& output_sign $end
+$var wire 25 M& subtraction_diff [24:0] $end
+$var wire 31 N& sub_diff [30:0] $end
+$var wire 24 O& significand_sub_complement [23:0] $end
+$var wire 25 P& significand_sub [24:0] $end
+$var wire 24 Q& significand_b_add_sub [23:0] $end
+$var wire 24 R& significand_b [23:0] $end
+$var wire 25 S& significand_add [24:0] $end
+$var wire 24 T& significand_a [23:0] $end
+$var wire 32 U& result [31:0] $end
+$var wire 1 V& perform $end
+$var wire 32 W& operand_b [31:0] $end
+$var wire 32 X& operand_a [31:0] $end
+$var wire 8 Y& exponent_sub [7:0] $end
+$var wire 8 Z& exponent_diff [7:0] $end
+$var wire 8 [& exponent_b_add_sub [7:0] $end
+$var wire 31 \& add_sum [30:0] $end
+$var wire 1 ]& Comp_enable $end
+$scope module pe $end
+$var wire 8 ^& Exponent_a [7:0] $end
+$var wire 25 _& significand [24:0] $end
+$var wire 8 `& Exponent_sub [7:0] $end
+$var reg 25 a& Significand [24:0] $end
+$var reg 5 b& shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[9] $end
+$scope module pd $end
+$var wire 1 0 clear $end
+$var wire 1 c& set $end
+$var wire 32 d& result_divide_by_2_plus_4 [31:0] $end
+$var wire 32 e& new_potential [31:0] $end
+$var wire 1 f& Exception $end
+$var reg 8 g& adjusted_exponent [7:0] $end
+$var reg 4 h& decay_rate [3:0] $end
+$var reg 1 i& decayoutput0 $end
+$var reg 1 j& decayoutput1 $end
+$var reg 1 k& decayoutput2 $end
+$var reg 1 l& decayoutput3 $end
+$var reg 1 m& decayoutput4 $end
+$var reg 1 n& decayoutput5 $end
+$var reg 1 o& decayoutput6 $end
+$var reg 1 p& decayoutput7 $end
+$var reg 1 q& decayoutput8 $end
+$var reg 1 r& decayoutput9 $end
+$var reg 1 s& done $end
+$var reg 8 t& exponent [7:0] $end
+$var reg 8 u& exponent_divided_by_2 [7:0] $end
+$var reg 8 v& exponent_divided_by_4 [7:0] $end
+$var reg 1 w& flip $end
+$var reg 23 x& mantissa [22:0] $end
+$var reg 32 y& membrane_potential [31:0] $end
+$var reg 2 z& model [1:0] $end
+$var reg 12 {& neuron_address [11:0] $end
+$var reg 32 |& number_divided_by_2 [31:0] $end
+$var reg 32 }& number_divided_by_4 [31:0] $end
+$var reg 32 ~& output_potential_decay [31:0] $end
+$var reg 32 !' output_potential_decay_LIF [31:0] $end
+$var reg 2 "' sign [1:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 #' AddBar_Sub $end
+$var wire 1 f& Exception $end
+$var wire 32 $' a_operand [31:0] $end
+$var wire 32 %' b_operand [31:0] $end
+$var wire 1 &' operation_sub_addBar $end
+$var wire 1 '' output_sign $end
+$var wire 25 (' subtraction_diff [24:0] $end
+$var wire 31 )' sub_diff [30:0] $end
+$var wire 24 *' significand_sub_complement [23:0] $end
+$var wire 25 +' significand_sub [24:0] $end
+$var wire 24 ,' significand_b_add_sub [23:0] $end
+$var wire 24 -' significand_b [23:0] $end
+$var wire 25 .' significand_add [24:0] $end
+$var wire 24 /' significand_a [23:0] $end
+$var wire 32 0' result [31:0] $end
+$var wire 1 1' perform $end
+$var wire 32 2' operand_b [31:0] $end
+$var wire 32 3' operand_a [31:0] $end
+$var wire 8 4' exponent_sub [7:0] $end
+$var wire 8 5' exponent_diff [7:0] $end
+$var wire 8 6' exponent_b_add_sub [7:0] $end
+$var wire 31 7' add_sum [30:0] $end
+$var wire 1 8' Comp_enable $end
+$scope module pe $end
+$var wire 8 9' Exponent_a [7:0] $end
+$var wire 25 :' significand [24:0] $end
+$var wire 8 ;' Exponent_sub [7:0] $end
+$var reg 25 <' Significand [24:0] $end
+$var reg 5 =' shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[0] $end
+$scope module m $end
+$var wire 1 + CLK_Mac $end
+$var wire 1 0 clear $end
+$var wire 12 >' source_address [11:0] $end
+$var reg 32 ?' accumulated_weight [31:0] $end
+$var reg 1 @' break $end
+$var reg 32 A' considered_weight [31:0] $end
+$var reg 1 B' done $end
+$var reg 5 C' incomingspikes [4:0] $end
+$var reg 1 D' macoutput0 $end
+$var reg 1 E' macoutput1 $end
+$var reg 1 F' macoutput2 $end
+$var reg 1 G' macoutput3 $end
+$var reg 1 H' macoutput4 $end
+$var reg 1 I' macoutput5 $end
+$var reg 1 J' macoutput6 $end
+$var reg 1 K' macoutput7 $end
+$var reg 1 L' macoutput8 $end
+$var reg 1 M' macoutput9 $end
+$var reg 32 N' mult_output [31:0] $end
+$var reg 5 O' spikes [4:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[1] $end
+$scope module m $end
+$var wire 1 + CLK_Mac $end
+$var wire 1 0 clear $end
+$var wire 12 P' source_address [11:0] $end
+$var reg 32 Q' accumulated_weight [31:0] $end
+$var reg 1 R' break $end
+$var reg 32 S' considered_weight [31:0] $end
+$var reg 1 T' done $end
+$var reg 5 U' incomingspikes [4:0] $end
+$var reg 1 V' macoutput0 $end
+$var reg 1 W' macoutput1 $end
+$var reg 1 X' macoutput2 $end
+$var reg 1 Y' macoutput3 $end
+$var reg 1 Z' macoutput4 $end
+$var reg 1 [' macoutput5 $end
+$var reg 1 \' macoutput6 $end
+$var reg 1 ]' macoutput7 $end
+$var reg 1 ^' macoutput8 $end
+$var reg 1 _' macoutput9 $end
+$var reg 32 `' mult_output [31:0] $end
+$var reg 5 a' spikes [4:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[2] $end
+$scope module m $end
+$var wire 1 + CLK_Mac $end
+$var wire 1 0 clear $end
+$var wire 12 b' source_address [11:0] $end
+$var reg 32 c' accumulated_weight [31:0] $end
+$var reg 1 d' break $end
+$var reg 32 e' considered_weight [31:0] $end
+$var reg 1 f' done $end
+$var reg 5 g' incomingspikes [4:0] $end
+$var reg 1 h' macoutput0 $end
+$var reg 1 i' macoutput1 $end
+$var reg 1 j' macoutput2 $end
+$var reg 1 k' macoutput3 $end
+$var reg 1 l' macoutput4 $end
+$var reg 1 m' macoutput5 $end
+$var reg 1 n' macoutput6 $end
+$var reg 1 o' macoutput7 $end
+$var reg 1 p' macoutput8 $end
+$var reg 1 q' macoutput9 $end
+$var reg 32 r' mult_output [31:0] $end
+$var reg 5 s' spikes [4:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[3] $end
+$scope module m $end
+$var wire 1 + CLK_Mac $end
+$var wire 1 0 clear $end
+$var wire 12 t' source_address [11:0] $end
+$var reg 32 u' accumulated_weight [31:0] $end
+$var reg 1 v' break $end
+$var reg 32 w' considered_weight [31:0] $end
+$var reg 1 x' done $end
+$var reg 5 y' incomingspikes [4:0] $end
+$var reg 1 z' macoutput0 $end
+$var reg 1 {' macoutput1 $end
+$var reg 1 |' macoutput2 $end
+$var reg 1 }' macoutput3 $end
+$var reg 1 ~' macoutput4 $end
+$var reg 1 !( macoutput5 $end
+$var reg 1 "( macoutput6 $end
+$var reg 1 #( macoutput7 $end
+$var reg 1 $( macoutput8 $end
+$var reg 1 %( macoutput9 $end
+$var reg 32 &( mult_output [31:0] $end
+$var reg 5 '( spikes [4:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[4] $end
+$scope module m $end
+$var wire 1 + CLK_Mac $end
+$var wire 1 0 clear $end
+$var wire 12 (( source_address [11:0] $end
+$var reg 32 )( accumulated_weight [31:0] $end
+$var reg 1 *( break $end
+$var reg 32 +( considered_weight [31:0] $end
+$var reg 1 ,( done $end
+$var reg 5 -( incomingspikes [4:0] $end
+$var reg 1 .( macoutput0 $end
+$var reg 1 /( macoutput1 $end
+$var reg 1 0( macoutput2 $end
+$var reg 1 1( macoutput3 $end
+$var reg 1 2( macoutput4 $end
+$var reg 1 3( macoutput5 $end
+$var reg 1 4( macoutput6 $end
+$var reg 1 5( macoutput7 $end
+$var reg 1 6( macoutput8 $end
+$var reg 1 7( macoutput9 $end
+$var reg 32 8( mult_output [31:0] $end
+$var reg 5 9( spikes [4:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[5] $end
+$scope module m $end
+$var wire 1 + CLK_Mac $end
+$var wire 1 0 clear $end
+$var wire 12 :( source_address [11:0] $end
+$var reg 32 ;( accumulated_weight [31:0] $end
+$var reg 1 <( break $end
+$var reg 32 =( considered_weight [31:0] $end
+$var reg 1 >( done $end
+$var reg 5 ?( incomingspikes [4:0] $end
+$var reg 1 @( macoutput0 $end
+$var reg 1 A( macoutput1 $end
+$var reg 1 B( macoutput2 $end
+$var reg 1 C( macoutput3 $end
+$var reg 1 D( macoutput4 $end
+$var reg 1 E( macoutput5 $end
+$var reg 1 F( macoutput6 $end
+$var reg 1 G( macoutput7 $end
+$var reg 1 H( macoutput8 $end
+$var reg 1 I( macoutput9 $end
+$var reg 32 J( mult_output [31:0] $end
+$var reg 5 K( spikes [4:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[6] $end
+$scope module m $end
+$var wire 1 + CLK_Mac $end
+$var wire 1 0 clear $end
+$var wire 12 L( source_address [11:0] $end
+$var reg 32 M( accumulated_weight [31:0] $end
+$var reg 1 N( break $end
+$var reg 32 O( considered_weight [31:0] $end
+$var reg 1 P( done $end
+$var reg 5 Q( incomingspikes [4:0] $end
+$var reg 1 R( macoutput0 $end
+$var reg 1 S( macoutput1 $end
+$var reg 1 T( macoutput2 $end
+$var reg 1 U( macoutput3 $end
+$var reg 1 V( macoutput4 $end
+$var reg 1 W( macoutput5 $end
+$var reg 1 X( macoutput6 $end
+$var reg 1 Y( macoutput7 $end
+$var reg 1 Z( macoutput8 $end
+$var reg 1 [( macoutput9 $end
+$var reg 32 \( mult_output [31:0] $end
+$var reg 5 ]( spikes [4:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[7] $end
+$scope module m $end
+$var wire 1 + CLK_Mac $end
+$var wire 1 0 clear $end
+$var wire 12 ^( source_address [11:0] $end
+$var reg 32 _( accumulated_weight [31:0] $end
+$var reg 1 `( break $end
+$var reg 32 a( considered_weight [31:0] $end
+$var reg 1 b( done $end
+$var reg 5 c( incomingspikes [4:0] $end
+$var reg 1 d( macoutput0 $end
+$var reg 1 e( macoutput1 $end
+$var reg 1 f( macoutput2 $end
+$var reg 1 g( macoutput3 $end
+$var reg 1 h( macoutput4 $end
+$var reg 1 i( macoutput5 $end
+$var reg 1 j( macoutput6 $end
+$var reg 1 k( macoutput7 $end
+$var reg 1 l( macoutput8 $end
+$var reg 1 m( macoutput9 $end
+$var reg 32 n( mult_output [31:0] $end
+$var reg 5 o( spikes [4:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[8] $end
+$scope module m $end
+$var wire 1 + CLK_Mac $end
+$var wire 1 0 clear $end
+$var wire 12 p( source_address [11:0] $end
+$var reg 32 q( accumulated_weight [31:0] $end
+$var reg 1 r( break $end
+$var reg 32 s( considered_weight [31:0] $end
+$var reg 1 t( done $end
+$var reg 5 u( incomingspikes [4:0] $end
+$var reg 1 v( macoutput0 $end
+$var reg 1 w( macoutput1 $end
+$var reg 1 x( macoutput2 $end
+$var reg 1 y( macoutput3 $end
+$var reg 1 z( macoutput4 $end
+$var reg 1 {( macoutput5 $end
+$var reg 1 |( macoutput6 $end
+$var reg 1 }( macoutput7 $end
+$var reg 1 ~( macoutput8 $end
+$var reg 1 !) macoutput9 $end
+$var reg 32 ") mult_output [31:0] $end
+$var reg 5 #) spikes [4:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[9] $end
+$scope module m $end
+$var wire 1 + CLK_Mac $end
+$var wire 1 0 clear $end
+$var wire 12 $) source_address [11:0] $end
+$var reg 32 %) accumulated_weight [31:0] $end
+$var reg 1 &) break $end
+$var reg 32 ') considered_weight [31:0] $end
+$var reg 1 () done $end
+$var reg 5 )) incomingspikes [4:0] $end
+$var reg 1 *) macoutput0 $end
+$var reg 1 +) macoutput1 $end
+$var reg 1 ,) macoutput2 $end
+$var reg 1 -) macoutput3 $end
+$var reg 1 .) macoutput4 $end
+$var reg 1 /) macoutput5 $end
+$var reg 1 0) macoutput6 $end
+$var reg 1 1) macoutput7 $end
+$var reg 1 2) macoutput8 $end
+$var reg 1 3) macoutput9 $end
+$var reg 32 4) mult_output [31:0] $end
+$var reg 5 5) spikes [4:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk3[0] $end
+$scope module pa $end
+$var wire 1 0 clear $end
+$var wire 32 6) decayed_potential [31:0] $end
+$var wire 32 7) input_weight [31:0] $end
+$var wire 1 8) set $end
+$var wire 32 9) weight_added [31:0] $end
+$var wire 32 :) reset_value [31:0] $end
+$var wire 1 ;) greater $end
+$var wire 1 <) Exception1 $end
+$var wire 1 =) Exception $end
+$var reg 1 >) adderoutput0 $end
+$var reg 1 ?) adderoutput1 $end
+$var reg 1 @) adderoutput2 $end
+$var reg 1 A) adderoutput3 $end
+$var reg 1 B) adderoutput4 $end
+$var reg 1 C) adderoutput5 $end
+$var reg 1 D) adderoutput6 $end
+$var reg 1 E) adderoutput7 $end
+$var reg 1 F) adderoutput8 $end
+$var reg 1 G) adderoutput9 $end
+$var reg 1 H) done $end
+$var reg 32 I) final_potential [31:0] $end
+$var reg 2 J) model [1:0] $end
+$var reg 1 K) spike $end
+$var reg 32 L) v_threshold [31:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 M) AddBar_Sub $end
+$var wire 1 <) Exception $end
+$var wire 32 N) b_operand [31:0] $end
+$var wire 1 O) operation_sub_addBar $end
+$var wire 1 P) output_sign $end
+$var wire 25 Q) subtraction_diff [24:0] $end
+$var wire 31 R) sub_diff [30:0] $end
+$var wire 24 S) significand_sub_complement [23:0] $end
+$var wire 25 T) significand_sub [24:0] $end
+$var wire 24 U) significand_b_add_sub [23:0] $end
+$var wire 24 V) significand_b [23:0] $end
+$var wire 25 W) significand_add [24:0] $end
+$var wire 24 X) significand_a [23:0] $end
+$var wire 32 Y) result [31:0] $end
+$var wire 1 Z) perform $end
+$var wire 32 [) operand_b [31:0] $end
+$var wire 32 \) operand_a [31:0] $end
+$var wire 8 ]) exponent_sub [7:0] $end
+$var wire 8 ^) exponent_diff [7:0] $end
+$var wire 8 _) exponent_b_add_sub [7:0] $end
+$var wire 31 `) add_sum [30:0] $end
+$var wire 32 a) a_operand [31:0] $end
+$var wire 1 b) Comp_enable $end
+$scope module pe $end
+$var wire 8 c) Exponent_a [7:0] $end
+$var wire 25 d) significand [24:0] $end
+$var wire 8 e) Exponent_sub [7:0] $end
+$var reg 25 f) Significand [24:0] $end
+$var reg 5 g) shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module Addition_Subtraction_2 $end
+$var wire 1 h) AddBar_Sub $end
+$var wire 1 =) Exception $end
+$var wire 32 i) a_operand [31:0] $end
+$var wire 32 j) b_operand [31:0] $end
+$var wire 1 k) operation_sub_addBar $end
+$var wire 1 l) output_sign $end
+$var wire 25 m) subtraction_diff [24:0] $end
+$var wire 31 n) sub_diff [30:0] $end
+$var wire 24 o) significand_sub_complement [23:0] $end
+$var wire 25 p) significand_sub [24:0] $end
+$var wire 24 q) significand_b_add_sub [23:0] $end
+$var wire 24 r) significand_b [23:0] $end
+$var wire 25 s) significand_add [24:0] $end
+$var wire 24 t) significand_a [23:0] $end
+$var wire 32 u) result [31:0] $end
+$var wire 1 v) perform $end
+$var wire 32 w) operand_b [31:0] $end
+$var wire 32 x) operand_a [31:0] $end
+$var wire 8 y) exponent_sub [7:0] $end
+$var wire 8 z) exponent_diff [7:0] $end
+$var wire 8 {) exponent_b_add_sub [7:0] $end
+$var wire 31 |) add_sum [30:0] $end
+$var wire 1 }) Comp_enable $end
+$scope module pe $end
+$var wire 8 ~) Exponent_a [7:0] $end
+$var wire 25 !* significand [24:0] $end
+$var wire 8 "* Exponent_sub [7:0] $end
+$var reg 25 #* Significand [24:0] $end
+$var reg 5 $* shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module comparator_2 $end
+$var wire 32 %* a_operand [31:0] $end
+$var wire 32 &* b_operand [31:0] $end
+$var wire 32 '* result [31:0] $end
+$var wire 1 (* Exception $end
+$var reg 1 ;) greater $end
+$var reg 1 )* sign $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 ** AddBar_Sub $end
+$var wire 1 (* Exception $end
+$var wire 32 +* a_operand [31:0] $end
+$var wire 32 ,* b_operand [31:0] $end
+$var wire 1 -* operation_sub_addBar $end
+$var wire 1 .* output_sign $end
+$var wire 25 /* subtraction_diff [24:0] $end
+$var wire 31 0* sub_diff [30:0] $end
+$var wire 24 1* significand_sub_complement [23:0] $end
+$var wire 25 2* significand_sub [24:0] $end
+$var wire 24 3* significand_b_add_sub [23:0] $end
+$var wire 24 4* significand_b [23:0] $end
+$var wire 25 5* significand_add [24:0] $end
+$var wire 24 6* significand_a [23:0] $end
+$var wire 32 7* result [31:0] $end
+$var wire 1 8* perform $end
+$var wire 32 9* operand_b [31:0] $end
+$var wire 32 :* operand_a [31:0] $end
+$var wire 8 ;* exponent_sub [7:0] $end
+$var wire 8 <* exponent_diff [7:0] $end
+$var wire 8 =* exponent_b_add_sub [7:0] $end
+$var wire 31 >* add_sum [30:0] $end
+$var wire 1 ?* Comp_enable $end
+$scope module pe $end
+$var wire 8 @* Exponent_a [7:0] $end
+$var wire 25 A* significand [24:0] $end
+$var wire 8 B* Exponent_sub [7:0] $end
+$var reg 25 C* Significand [24:0] $end
+$var reg 5 D* shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk3[1] $end
+$scope module pa $end
+$var wire 1 0 clear $end
+$var wire 32 E* decayed_potential [31:0] $end
+$var wire 32 F* input_weight [31:0] $end
+$var wire 1 G* set $end
+$var wire 32 H* weight_added [31:0] $end
+$var wire 32 I* reset_value [31:0] $end
+$var wire 1 J* greater $end
+$var wire 1 K* Exception1 $end
+$var wire 1 L* Exception $end
+$var reg 1 M* adderoutput0 $end
+$var reg 1 N* adderoutput1 $end
+$var reg 1 O* adderoutput2 $end
+$var reg 1 P* adderoutput3 $end
+$var reg 1 Q* adderoutput4 $end
+$var reg 1 R* adderoutput5 $end
+$var reg 1 S* adderoutput6 $end
+$var reg 1 T* adderoutput7 $end
+$var reg 1 U* adderoutput8 $end
+$var reg 1 V* adderoutput9 $end
+$var reg 1 W* done $end
+$var reg 32 X* final_potential [31:0] $end
+$var reg 2 Y* model [1:0] $end
+$var reg 1 Z* spike $end
+$var reg 32 [* v_threshold [31:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 \* AddBar_Sub $end
+$var wire 1 K* Exception $end
+$var wire 32 ]* b_operand [31:0] $end
+$var wire 1 ^* operation_sub_addBar $end
+$var wire 1 _* output_sign $end
+$var wire 25 `* subtraction_diff [24:0] $end
+$var wire 31 a* sub_diff [30:0] $end
+$var wire 24 b* significand_sub_complement [23:0] $end
+$var wire 25 c* significand_sub [24:0] $end
+$var wire 24 d* significand_b_add_sub [23:0] $end
+$var wire 24 e* significand_b [23:0] $end
+$var wire 25 f* significand_add [24:0] $end
+$var wire 24 g* significand_a [23:0] $end
+$var wire 32 h* result [31:0] $end
+$var wire 1 i* perform $end
+$var wire 32 j* operand_b [31:0] $end
+$var wire 32 k* operand_a [31:0] $end
+$var wire 8 l* exponent_sub [7:0] $end
+$var wire 8 m* exponent_diff [7:0] $end
+$var wire 8 n* exponent_b_add_sub [7:0] $end
+$var wire 31 o* add_sum [30:0] $end
+$var wire 32 p* a_operand [31:0] $end
+$var wire 1 q* Comp_enable $end
+$scope module pe $end
+$var wire 8 r* Exponent_a [7:0] $end
+$var wire 25 s* significand [24:0] $end
+$var wire 8 t* Exponent_sub [7:0] $end
+$var reg 25 u* Significand [24:0] $end
+$var reg 5 v* shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module Addition_Subtraction_2 $end
+$var wire 1 w* AddBar_Sub $end
+$var wire 1 L* Exception $end
+$var wire 32 x* a_operand [31:0] $end
+$var wire 32 y* b_operand [31:0] $end
+$var wire 1 z* operation_sub_addBar $end
+$var wire 1 {* output_sign $end
+$var wire 25 |* subtraction_diff [24:0] $end
+$var wire 31 }* sub_diff [30:0] $end
+$var wire 24 ~* significand_sub_complement [23:0] $end
+$var wire 25 !+ significand_sub [24:0] $end
+$var wire 24 "+ significand_b_add_sub [23:0] $end
+$var wire 24 #+ significand_b [23:0] $end
+$var wire 25 $+ significand_add [24:0] $end
+$var wire 24 %+ significand_a [23:0] $end
+$var wire 32 &+ result [31:0] $end
+$var wire 1 '+ perform $end
+$var wire 32 (+ operand_b [31:0] $end
+$var wire 32 )+ operand_a [31:0] $end
+$var wire 8 *+ exponent_sub [7:0] $end
+$var wire 8 ++ exponent_diff [7:0] $end
+$var wire 8 ,+ exponent_b_add_sub [7:0] $end
+$var wire 31 -+ add_sum [30:0] $end
+$var wire 1 .+ Comp_enable $end
+$scope module pe $end
+$var wire 8 /+ Exponent_a [7:0] $end
+$var wire 25 0+ significand [24:0] $end
+$var wire 8 1+ Exponent_sub [7:0] $end
+$var reg 25 2+ Significand [24:0] $end
+$var reg 5 3+ shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module comparator_2 $end
+$var wire 32 4+ a_operand [31:0] $end
+$var wire 32 5+ b_operand [31:0] $end
+$var wire 32 6+ result [31:0] $end
+$var wire 1 7+ Exception $end
+$var reg 1 J* greater $end
+$var reg 1 8+ sign $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 9+ AddBar_Sub $end
+$var wire 1 7+ Exception $end
+$var wire 32 :+ a_operand [31:0] $end
+$var wire 32 ;+ b_operand [31:0] $end
+$var wire 1 <+ operation_sub_addBar $end
+$var wire 1 =+ output_sign $end
+$var wire 25 >+ subtraction_diff [24:0] $end
+$var wire 31 ?+ sub_diff [30:0] $end
+$var wire 24 @+ significand_sub_complement [23:0] $end
+$var wire 25 A+ significand_sub [24:0] $end
+$var wire 24 B+ significand_b_add_sub [23:0] $end
+$var wire 24 C+ significand_b [23:0] $end
+$var wire 25 D+ significand_add [24:0] $end
+$var wire 24 E+ significand_a [23:0] $end
+$var wire 32 F+ result [31:0] $end
+$var wire 1 G+ perform $end
+$var wire 32 H+ operand_b [31:0] $end
+$var wire 32 I+ operand_a [31:0] $end
+$var wire 8 J+ exponent_sub [7:0] $end
+$var wire 8 K+ exponent_diff [7:0] $end
+$var wire 8 L+ exponent_b_add_sub [7:0] $end
+$var wire 31 M+ add_sum [30:0] $end
+$var wire 1 N+ Comp_enable $end
+$scope module pe $end
+$var wire 8 O+ Exponent_a [7:0] $end
+$var wire 25 P+ significand [24:0] $end
+$var wire 8 Q+ Exponent_sub [7:0] $end
+$var reg 25 R+ Significand [24:0] $end
+$var reg 5 S+ shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk3[2] $end
+$scope module pa $end
+$var wire 1 0 clear $end
+$var wire 32 T+ decayed_potential [31:0] $end
+$var wire 32 U+ input_weight [31:0] $end
+$var wire 1 V+ set $end
+$var wire 32 W+ weight_added [31:0] $end
+$var wire 32 X+ reset_value [31:0] $end
+$var wire 1 Y+ greater $end
+$var wire 1 Z+ Exception1 $end
+$var wire 1 [+ Exception $end
+$var reg 1 \+ adderoutput0 $end
+$var reg 1 ]+ adderoutput1 $end
+$var reg 1 ^+ adderoutput2 $end
+$var reg 1 _+ adderoutput3 $end
+$var reg 1 `+ adderoutput4 $end
+$var reg 1 a+ adderoutput5 $end
+$var reg 1 b+ adderoutput6 $end
+$var reg 1 c+ adderoutput7 $end
+$var reg 1 d+ adderoutput8 $end
+$var reg 1 e+ adderoutput9 $end
+$var reg 1 f+ done $end
+$var reg 32 g+ final_potential [31:0] $end
+$var reg 2 h+ model [1:0] $end
+$var reg 1 i+ spike $end
+$var reg 32 j+ v_threshold [31:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 k+ AddBar_Sub $end
+$var wire 1 Z+ Exception $end
+$var wire 32 l+ b_operand [31:0] $end
+$var wire 1 m+ operation_sub_addBar $end
+$var wire 1 n+ output_sign $end
+$var wire 25 o+ subtraction_diff [24:0] $end
+$var wire 31 p+ sub_diff [30:0] $end
+$var wire 24 q+ significand_sub_complement [23:0] $end
+$var wire 25 r+ significand_sub [24:0] $end
+$var wire 24 s+ significand_b_add_sub [23:0] $end
+$var wire 24 t+ significand_b [23:0] $end
+$var wire 25 u+ significand_add [24:0] $end
+$var wire 24 v+ significand_a [23:0] $end
+$var wire 32 w+ result [31:0] $end
+$var wire 1 x+ perform $end
+$var wire 32 y+ operand_b [31:0] $end
+$var wire 32 z+ operand_a [31:0] $end
+$var wire 8 {+ exponent_sub [7:0] $end
+$var wire 8 |+ exponent_diff [7:0] $end
+$var wire 8 }+ exponent_b_add_sub [7:0] $end
+$var wire 31 ~+ add_sum [30:0] $end
+$var wire 32 !, a_operand [31:0] $end
+$var wire 1 ", Comp_enable $end
+$scope module pe $end
+$var wire 8 #, Exponent_a [7:0] $end
+$var wire 25 $, significand [24:0] $end
+$var wire 8 %, Exponent_sub [7:0] $end
+$var reg 25 &, Significand [24:0] $end
+$var reg 5 ', shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module Addition_Subtraction_2 $end
+$var wire 1 (, AddBar_Sub $end
+$var wire 1 [+ Exception $end
+$var wire 32 ), a_operand [31:0] $end
+$var wire 32 *, b_operand [31:0] $end
+$var wire 1 +, operation_sub_addBar $end
+$var wire 1 ,, output_sign $end
+$var wire 25 -, subtraction_diff [24:0] $end
+$var wire 31 ., sub_diff [30:0] $end
+$var wire 24 /, significand_sub_complement [23:0] $end
+$var wire 25 0, significand_sub [24:0] $end
+$var wire 24 1, significand_b_add_sub [23:0] $end
+$var wire 24 2, significand_b [23:0] $end
+$var wire 25 3, significand_add [24:0] $end
+$var wire 24 4, significand_a [23:0] $end
+$var wire 32 5, result [31:0] $end
+$var wire 1 6, perform $end
+$var wire 32 7, operand_b [31:0] $end
+$var wire 32 8, operand_a [31:0] $end
+$var wire 8 9, exponent_sub [7:0] $end
+$var wire 8 :, exponent_diff [7:0] $end
+$var wire 8 ;, exponent_b_add_sub [7:0] $end
+$var wire 31 <, add_sum [30:0] $end
+$var wire 1 =, Comp_enable $end
+$scope module pe $end
+$var wire 8 >, Exponent_a [7:0] $end
+$var wire 25 ?, significand [24:0] $end
+$var wire 8 @, Exponent_sub [7:0] $end
+$var reg 25 A, Significand [24:0] $end
+$var reg 5 B, shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module comparator_2 $end
+$var wire 32 C, a_operand [31:0] $end
+$var wire 32 D, b_operand [31:0] $end
+$var wire 32 E, result [31:0] $end
+$var wire 1 F, Exception $end
+$var reg 1 Y+ greater $end
+$var reg 1 G, sign $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 H, AddBar_Sub $end
+$var wire 1 F, Exception $end
+$var wire 32 I, a_operand [31:0] $end
+$var wire 32 J, b_operand [31:0] $end
+$var wire 1 K, operation_sub_addBar $end
+$var wire 1 L, output_sign $end
+$var wire 25 M, subtraction_diff [24:0] $end
+$var wire 31 N, sub_diff [30:0] $end
+$var wire 24 O, significand_sub_complement [23:0] $end
+$var wire 25 P, significand_sub [24:0] $end
+$var wire 24 Q, significand_b_add_sub [23:0] $end
+$var wire 24 R, significand_b [23:0] $end
+$var wire 25 S, significand_add [24:0] $end
+$var wire 24 T, significand_a [23:0] $end
+$var wire 32 U, result [31:0] $end
+$var wire 1 V, perform $end
+$var wire 32 W, operand_b [31:0] $end
+$var wire 32 X, operand_a [31:0] $end
+$var wire 8 Y, exponent_sub [7:0] $end
+$var wire 8 Z, exponent_diff [7:0] $end
+$var wire 8 [, exponent_b_add_sub [7:0] $end
+$var wire 31 \, add_sum [30:0] $end
+$var wire 1 ], Comp_enable $end
+$scope module pe $end
+$var wire 8 ^, Exponent_a [7:0] $end
+$var wire 25 _, significand [24:0] $end
+$var wire 8 `, Exponent_sub [7:0] $end
+$var reg 25 a, Significand [24:0] $end
+$var reg 5 b, shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk3[3] $end
+$scope module pa $end
+$var wire 1 0 clear $end
+$var wire 32 c, decayed_potential [31:0] $end
+$var wire 32 d, input_weight [31:0] $end
+$var wire 1 e, set $end
+$var wire 32 f, weight_added [31:0] $end
+$var wire 32 g, reset_value [31:0] $end
+$var wire 1 h, greater $end
+$var wire 1 i, Exception1 $end
+$var wire 1 j, Exception $end
+$var reg 1 k, adderoutput0 $end
+$var reg 1 l, adderoutput1 $end
+$var reg 1 m, adderoutput2 $end
+$var reg 1 n, adderoutput3 $end
+$var reg 1 o, adderoutput4 $end
+$var reg 1 p, adderoutput5 $end
+$var reg 1 q, adderoutput6 $end
+$var reg 1 r, adderoutput7 $end
+$var reg 1 s, adderoutput8 $end
+$var reg 1 t, adderoutput9 $end
+$var reg 1 u, done $end
+$var reg 32 v, final_potential [31:0] $end
+$var reg 2 w, model [1:0] $end
+$var reg 1 x, spike $end
+$var reg 32 y, v_threshold [31:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 z, AddBar_Sub $end
+$var wire 1 i, Exception $end
+$var wire 32 {, b_operand [31:0] $end
+$var wire 1 |, operation_sub_addBar $end
+$var wire 1 }, output_sign $end
+$var wire 25 ~, subtraction_diff [24:0] $end
+$var wire 31 !- sub_diff [30:0] $end
+$var wire 24 "- significand_sub_complement [23:0] $end
+$var wire 25 #- significand_sub [24:0] $end
+$var wire 24 $- significand_b_add_sub [23:0] $end
+$var wire 24 %- significand_b [23:0] $end
+$var wire 25 &- significand_add [24:0] $end
+$var wire 24 '- significand_a [23:0] $end
+$var wire 32 (- result [31:0] $end
+$var wire 1 )- perform $end
+$var wire 32 *- operand_b [31:0] $end
+$var wire 32 +- operand_a [31:0] $end
+$var wire 8 ,- exponent_sub [7:0] $end
+$var wire 8 -- exponent_diff [7:0] $end
+$var wire 8 .- exponent_b_add_sub [7:0] $end
+$var wire 31 /- add_sum [30:0] $end
+$var wire 32 0- a_operand [31:0] $end
+$var wire 1 1- Comp_enable $end
+$scope module pe $end
+$var wire 8 2- Exponent_a [7:0] $end
+$var wire 25 3- significand [24:0] $end
+$var wire 8 4- Exponent_sub [7:0] $end
+$var reg 25 5- Significand [24:0] $end
+$var reg 5 6- shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module Addition_Subtraction_2 $end
+$var wire 1 7- AddBar_Sub $end
+$var wire 1 j, Exception $end
+$var wire 32 8- a_operand [31:0] $end
+$var wire 32 9- b_operand [31:0] $end
+$var wire 1 :- operation_sub_addBar $end
+$var wire 1 ;- output_sign $end
+$var wire 25 <- subtraction_diff [24:0] $end
+$var wire 31 =- sub_diff [30:0] $end
+$var wire 24 >- significand_sub_complement [23:0] $end
+$var wire 25 ?- significand_sub [24:0] $end
+$var wire 24 @- significand_b_add_sub [23:0] $end
+$var wire 24 A- significand_b [23:0] $end
+$var wire 25 B- significand_add [24:0] $end
+$var wire 24 C- significand_a [23:0] $end
+$var wire 32 D- result [31:0] $end
+$var wire 1 E- perform $end
+$var wire 32 F- operand_b [31:0] $end
+$var wire 32 G- operand_a [31:0] $end
+$var wire 8 H- exponent_sub [7:0] $end
+$var wire 8 I- exponent_diff [7:0] $end
+$var wire 8 J- exponent_b_add_sub [7:0] $end
+$var wire 31 K- add_sum [30:0] $end
+$var wire 1 L- Comp_enable $end
+$scope module pe $end
+$var wire 8 M- Exponent_a [7:0] $end
+$var wire 25 N- significand [24:0] $end
+$var wire 8 O- Exponent_sub [7:0] $end
+$var reg 25 P- Significand [24:0] $end
+$var reg 5 Q- shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module comparator_2 $end
+$var wire 32 R- a_operand [31:0] $end
+$var wire 32 S- b_operand [31:0] $end
+$var wire 32 T- result [31:0] $end
+$var wire 1 U- Exception $end
+$var reg 1 h, greater $end
+$var reg 1 V- sign $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 W- AddBar_Sub $end
+$var wire 1 U- Exception $end
+$var wire 32 X- a_operand [31:0] $end
+$var wire 32 Y- b_operand [31:0] $end
+$var wire 1 Z- operation_sub_addBar $end
+$var wire 1 [- output_sign $end
+$var wire 25 \- subtraction_diff [24:0] $end
+$var wire 31 ]- sub_diff [30:0] $end
+$var wire 24 ^- significand_sub_complement [23:0] $end
+$var wire 25 _- significand_sub [24:0] $end
+$var wire 24 `- significand_b_add_sub [23:0] $end
+$var wire 24 a- significand_b [23:0] $end
+$var wire 25 b- significand_add [24:0] $end
+$var wire 24 c- significand_a [23:0] $end
+$var wire 32 d- result [31:0] $end
+$var wire 1 e- perform $end
+$var wire 32 f- operand_b [31:0] $end
+$var wire 32 g- operand_a [31:0] $end
+$var wire 8 h- exponent_sub [7:0] $end
+$var wire 8 i- exponent_diff [7:0] $end
+$var wire 8 j- exponent_b_add_sub [7:0] $end
+$var wire 31 k- add_sum [30:0] $end
+$var wire 1 l- Comp_enable $end
+$scope module pe $end
+$var wire 8 m- Exponent_a [7:0] $end
+$var wire 25 n- significand [24:0] $end
+$var wire 8 o- Exponent_sub [7:0] $end
+$var reg 25 p- Significand [24:0] $end
+$var reg 5 q- shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk3[4] $end
+$scope module pa $end
+$var wire 1 0 clear $end
+$var wire 32 r- decayed_potential [31:0] $end
+$var wire 32 s- input_weight [31:0] $end
+$var wire 1 t- set $end
+$var wire 32 u- weight_added [31:0] $end
+$var wire 32 v- reset_value [31:0] $end
+$var wire 1 w- greater $end
+$var wire 1 x- Exception1 $end
+$var wire 1 y- Exception $end
+$var reg 1 z- adderoutput0 $end
+$var reg 1 {- adderoutput1 $end
+$var reg 1 |- adderoutput2 $end
+$var reg 1 }- adderoutput3 $end
+$var reg 1 ~- adderoutput4 $end
+$var reg 1 !. adderoutput5 $end
+$var reg 1 ". adderoutput6 $end
+$var reg 1 #. adderoutput7 $end
+$var reg 1 $. adderoutput8 $end
+$var reg 1 %. adderoutput9 $end
+$var reg 1 &. done $end
+$var reg 32 '. final_potential [31:0] $end
+$var reg 2 (. model [1:0] $end
+$var reg 1 ). spike $end
+$var reg 32 *. v_threshold [31:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 +. AddBar_Sub $end
+$var wire 1 x- Exception $end
+$var wire 32 ,. b_operand [31:0] $end
+$var wire 1 -. operation_sub_addBar $end
+$var wire 1 .. output_sign $end
+$var wire 25 /. subtraction_diff [24:0] $end
+$var wire 31 0. sub_diff [30:0] $end
+$var wire 24 1. significand_sub_complement [23:0] $end
+$var wire 25 2. significand_sub [24:0] $end
+$var wire 24 3. significand_b_add_sub [23:0] $end
+$var wire 24 4. significand_b [23:0] $end
+$var wire 25 5. significand_add [24:0] $end
+$var wire 24 6. significand_a [23:0] $end
+$var wire 32 7. result [31:0] $end
+$var wire 1 8. perform $end
+$var wire 32 9. operand_b [31:0] $end
+$var wire 32 :. operand_a [31:0] $end
+$var wire 8 ;. exponent_sub [7:0] $end
+$var wire 8 <. exponent_diff [7:0] $end
+$var wire 8 =. exponent_b_add_sub [7:0] $end
+$var wire 31 >. add_sum [30:0] $end
+$var wire 32 ?. a_operand [31:0] $end
+$var wire 1 @. Comp_enable $end
+$scope module pe $end
+$var wire 8 A. Exponent_a [7:0] $end
+$var wire 25 B. significand [24:0] $end
+$var wire 8 C. Exponent_sub [7:0] $end
+$var reg 25 D. Significand [24:0] $end
+$var reg 5 E. shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module Addition_Subtraction_2 $end
+$var wire 1 F. AddBar_Sub $end
+$var wire 1 y- Exception $end
+$var wire 32 G. a_operand [31:0] $end
+$var wire 32 H. b_operand [31:0] $end
+$var wire 1 I. operation_sub_addBar $end
+$var wire 1 J. output_sign $end
+$var wire 25 K. subtraction_diff [24:0] $end
+$var wire 31 L. sub_diff [30:0] $end
+$var wire 24 M. significand_sub_complement [23:0] $end
+$var wire 25 N. significand_sub [24:0] $end
+$var wire 24 O. significand_b_add_sub [23:0] $end
+$var wire 24 P. significand_b [23:0] $end
+$var wire 25 Q. significand_add [24:0] $end
+$var wire 24 R. significand_a [23:0] $end
+$var wire 32 S. result [31:0] $end
+$var wire 1 T. perform $end
+$var wire 32 U. operand_b [31:0] $end
+$var wire 32 V. operand_a [31:0] $end
+$var wire 8 W. exponent_sub [7:0] $end
+$var wire 8 X. exponent_diff [7:0] $end
+$var wire 8 Y. exponent_b_add_sub [7:0] $end
+$var wire 31 Z. add_sum [30:0] $end
+$var wire 1 [. Comp_enable $end
+$scope module pe $end
+$var wire 8 \. Exponent_a [7:0] $end
+$var wire 25 ]. significand [24:0] $end
+$var wire 8 ^. Exponent_sub [7:0] $end
+$var reg 25 _. Significand [24:0] $end
+$var reg 5 `. shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module comparator_2 $end
+$var wire 32 a. a_operand [31:0] $end
+$var wire 32 b. b_operand [31:0] $end
+$var wire 32 c. result [31:0] $end
+$var wire 1 d. Exception $end
+$var reg 1 w- greater $end
+$var reg 1 e. sign $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 f. AddBar_Sub $end
+$var wire 1 d. Exception $end
+$var wire 32 g. a_operand [31:0] $end
+$var wire 32 h. b_operand [31:0] $end
+$var wire 1 i. operation_sub_addBar $end
+$var wire 1 j. output_sign $end
+$var wire 25 k. subtraction_diff [24:0] $end
+$var wire 31 l. sub_diff [30:0] $end
+$var wire 24 m. significand_sub_complement [23:0] $end
+$var wire 25 n. significand_sub [24:0] $end
+$var wire 24 o. significand_b_add_sub [23:0] $end
+$var wire 24 p. significand_b [23:0] $end
+$var wire 25 q. significand_add [24:0] $end
+$var wire 24 r. significand_a [23:0] $end
+$var wire 32 s. result [31:0] $end
+$var wire 1 t. perform $end
+$var wire 32 u. operand_b [31:0] $end
+$var wire 32 v. operand_a [31:0] $end
+$var wire 8 w. exponent_sub [7:0] $end
+$var wire 8 x. exponent_diff [7:0] $end
+$var wire 8 y. exponent_b_add_sub [7:0] $end
+$var wire 31 z. add_sum [30:0] $end
+$var wire 1 {. Comp_enable $end
+$scope module pe $end
+$var wire 8 |. Exponent_a [7:0] $end
+$var wire 25 }. significand [24:0] $end
+$var wire 8 ~. Exponent_sub [7:0] $end
+$var reg 25 !/ Significand [24:0] $end
+$var reg 5 "/ shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk3[5] $end
+$scope module pa $end
+$var wire 1 0 clear $end
+$var wire 32 #/ decayed_potential [31:0] $end
+$var wire 32 $/ input_weight [31:0] $end
+$var wire 1 %/ set $end
+$var wire 32 &/ weight_added [31:0] $end
+$var wire 32 '/ reset_value [31:0] $end
+$var wire 1 (/ greater $end
+$var wire 1 )/ Exception1 $end
+$var wire 1 */ Exception $end
+$var reg 1 +/ adderoutput0 $end
+$var reg 1 ,/ adderoutput1 $end
+$var reg 1 -/ adderoutput2 $end
+$var reg 1 ./ adderoutput3 $end
+$var reg 1 // adderoutput4 $end
+$var reg 1 0/ adderoutput5 $end
+$var reg 1 1/ adderoutput6 $end
+$var reg 1 2/ adderoutput7 $end
+$var reg 1 3/ adderoutput8 $end
+$var reg 1 4/ adderoutput9 $end
+$var reg 1 5/ done $end
+$var reg 32 6/ final_potential [31:0] $end
+$var reg 2 7/ model [1:0] $end
+$var reg 1 8/ spike $end
+$var reg 32 9/ v_threshold [31:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 :/ AddBar_Sub $end
+$var wire 1 )/ Exception $end
+$var wire 32 ;/ b_operand [31:0] $end
+$var wire 1 </ operation_sub_addBar $end
+$var wire 1 =/ output_sign $end
+$var wire 25 >/ subtraction_diff [24:0] $end
+$var wire 31 ?/ sub_diff [30:0] $end
+$var wire 24 @/ significand_sub_complement [23:0] $end
+$var wire 25 A/ significand_sub [24:0] $end
+$var wire 24 B/ significand_b_add_sub [23:0] $end
+$var wire 24 C/ significand_b [23:0] $end
+$var wire 25 D/ significand_add [24:0] $end
+$var wire 24 E/ significand_a [23:0] $end
+$var wire 32 F/ result [31:0] $end
+$var wire 1 G/ perform $end
+$var wire 32 H/ operand_b [31:0] $end
+$var wire 32 I/ operand_a [31:0] $end
+$var wire 8 J/ exponent_sub [7:0] $end
+$var wire 8 K/ exponent_diff [7:0] $end
+$var wire 8 L/ exponent_b_add_sub [7:0] $end
+$var wire 31 M/ add_sum [30:0] $end
+$var wire 32 N/ a_operand [31:0] $end
+$var wire 1 O/ Comp_enable $end
+$scope module pe $end
+$var wire 8 P/ Exponent_a [7:0] $end
+$var wire 25 Q/ significand [24:0] $end
+$var wire 8 R/ Exponent_sub [7:0] $end
+$var reg 25 S/ Significand [24:0] $end
+$var reg 5 T/ shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module Addition_Subtraction_2 $end
+$var wire 1 U/ AddBar_Sub $end
+$var wire 1 */ Exception $end
+$var wire 32 V/ a_operand [31:0] $end
+$var wire 32 W/ b_operand [31:0] $end
+$var wire 1 X/ operation_sub_addBar $end
+$var wire 1 Y/ output_sign $end
+$var wire 25 Z/ subtraction_diff [24:0] $end
+$var wire 31 [/ sub_diff [30:0] $end
+$var wire 24 \/ significand_sub_complement [23:0] $end
+$var wire 25 ]/ significand_sub [24:0] $end
+$var wire 24 ^/ significand_b_add_sub [23:0] $end
+$var wire 24 _/ significand_b [23:0] $end
+$var wire 25 `/ significand_add [24:0] $end
+$var wire 24 a/ significand_a [23:0] $end
+$var wire 32 b/ result [31:0] $end
+$var wire 1 c/ perform $end
+$var wire 32 d/ operand_b [31:0] $end
+$var wire 32 e/ operand_a [31:0] $end
+$var wire 8 f/ exponent_sub [7:0] $end
+$var wire 8 g/ exponent_diff [7:0] $end
+$var wire 8 h/ exponent_b_add_sub [7:0] $end
+$var wire 31 i/ add_sum [30:0] $end
+$var wire 1 j/ Comp_enable $end
+$scope module pe $end
+$var wire 8 k/ Exponent_a [7:0] $end
+$var wire 25 l/ significand [24:0] $end
+$var wire 8 m/ Exponent_sub [7:0] $end
+$var reg 25 n/ Significand [24:0] $end
+$var reg 5 o/ shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module comparator_2 $end
+$var wire 32 p/ a_operand [31:0] $end
+$var wire 32 q/ b_operand [31:0] $end
+$var wire 32 r/ result [31:0] $end
+$var wire 1 s/ Exception $end
+$var reg 1 (/ greater $end
+$var reg 1 t/ sign $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 u/ AddBar_Sub $end
+$var wire 1 s/ Exception $end
+$var wire 32 v/ a_operand [31:0] $end
+$var wire 32 w/ b_operand [31:0] $end
+$var wire 1 x/ operation_sub_addBar $end
+$var wire 1 y/ output_sign $end
+$var wire 25 z/ subtraction_diff [24:0] $end
+$var wire 31 {/ sub_diff [30:0] $end
+$var wire 24 |/ significand_sub_complement [23:0] $end
+$var wire 25 }/ significand_sub [24:0] $end
+$var wire 24 ~/ significand_b_add_sub [23:0] $end
+$var wire 24 !0 significand_b [23:0] $end
+$var wire 25 "0 significand_add [24:0] $end
+$var wire 24 #0 significand_a [23:0] $end
+$var wire 32 $0 result [31:0] $end
+$var wire 1 %0 perform $end
+$var wire 32 &0 operand_b [31:0] $end
+$var wire 32 '0 operand_a [31:0] $end
+$var wire 8 (0 exponent_sub [7:0] $end
+$var wire 8 )0 exponent_diff [7:0] $end
+$var wire 8 *0 exponent_b_add_sub [7:0] $end
+$var wire 31 +0 add_sum [30:0] $end
+$var wire 1 ,0 Comp_enable $end
+$scope module pe $end
+$var wire 8 -0 Exponent_a [7:0] $end
+$var wire 25 .0 significand [24:0] $end
+$var wire 8 /0 Exponent_sub [7:0] $end
+$var reg 25 00 Significand [24:0] $end
+$var reg 5 10 shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk3[6] $end
+$scope module pa $end
+$var wire 1 0 clear $end
+$var wire 32 20 decayed_potential [31:0] $end
+$var wire 32 30 input_weight [31:0] $end
+$var wire 1 40 set $end
+$var wire 32 50 weight_added [31:0] $end
+$var wire 32 60 reset_value [31:0] $end
+$var wire 1 70 greater $end
+$var wire 1 80 Exception1 $end
+$var wire 1 90 Exception $end
+$var reg 1 :0 adderoutput0 $end
+$var reg 1 ;0 adderoutput1 $end
+$var reg 1 <0 adderoutput2 $end
+$var reg 1 =0 adderoutput3 $end
+$var reg 1 >0 adderoutput4 $end
+$var reg 1 ?0 adderoutput5 $end
+$var reg 1 @0 adderoutput6 $end
+$var reg 1 A0 adderoutput7 $end
+$var reg 1 B0 adderoutput8 $end
+$var reg 1 C0 adderoutput9 $end
+$var reg 1 D0 done $end
+$var reg 32 E0 final_potential [31:0] $end
+$var reg 2 F0 model [1:0] $end
+$var reg 1 G0 spike $end
+$var reg 32 H0 v_threshold [31:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 I0 AddBar_Sub $end
+$var wire 1 80 Exception $end
+$var wire 32 J0 b_operand [31:0] $end
+$var wire 1 K0 operation_sub_addBar $end
+$var wire 1 L0 output_sign $end
+$var wire 25 M0 subtraction_diff [24:0] $end
+$var wire 31 N0 sub_diff [30:0] $end
+$var wire 24 O0 significand_sub_complement [23:0] $end
+$var wire 25 P0 significand_sub [24:0] $end
+$var wire 24 Q0 significand_b_add_sub [23:0] $end
+$var wire 24 R0 significand_b [23:0] $end
+$var wire 25 S0 significand_add [24:0] $end
+$var wire 24 T0 significand_a [23:0] $end
+$var wire 32 U0 result [31:0] $end
+$var wire 1 V0 perform $end
+$var wire 32 W0 operand_b [31:0] $end
+$var wire 32 X0 operand_a [31:0] $end
+$var wire 8 Y0 exponent_sub [7:0] $end
+$var wire 8 Z0 exponent_diff [7:0] $end
+$var wire 8 [0 exponent_b_add_sub [7:0] $end
+$var wire 31 \0 add_sum [30:0] $end
+$var wire 32 ]0 a_operand [31:0] $end
+$var wire 1 ^0 Comp_enable $end
+$scope module pe $end
+$var wire 8 _0 Exponent_a [7:0] $end
+$var wire 25 `0 significand [24:0] $end
+$var wire 8 a0 Exponent_sub [7:0] $end
+$var reg 25 b0 Significand [24:0] $end
+$var reg 5 c0 shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module Addition_Subtraction_2 $end
+$var wire 1 d0 AddBar_Sub $end
+$var wire 1 90 Exception $end
+$var wire 32 e0 a_operand [31:0] $end
+$var wire 32 f0 b_operand [31:0] $end
+$var wire 1 g0 operation_sub_addBar $end
+$var wire 1 h0 output_sign $end
+$var wire 25 i0 subtraction_diff [24:0] $end
+$var wire 31 j0 sub_diff [30:0] $end
+$var wire 24 k0 significand_sub_complement [23:0] $end
+$var wire 25 l0 significand_sub [24:0] $end
+$var wire 24 m0 significand_b_add_sub [23:0] $end
+$var wire 24 n0 significand_b [23:0] $end
+$var wire 25 o0 significand_add [24:0] $end
+$var wire 24 p0 significand_a [23:0] $end
+$var wire 32 q0 result [31:0] $end
+$var wire 1 r0 perform $end
+$var wire 32 s0 operand_b [31:0] $end
+$var wire 32 t0 operand_a [31:0] $end
+$var wire 8 u0 exponent_sub [7:0] $end
+$var wire 8 v0 exponent_diff [7:0] $end
+$var wire 8 w0 exponent_b_add_sub [7:0] $end
+$var wire 31 x0 add_sum [30:0] $end
+$var wire 1 y0 Comp_enable $end
+$scope module pe $end
+$var wire 8 z0 Exponent_a [7:0] $end
+$var wire 25 {0 significand [24:0] $end
+$var wire 8 |0 Exponent_sub [7:0] $end
+$var reg 25 }0 Significand [24:0] $end
+$var reg 5 ~0 shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module comparator_2 $end
+$var wire 32 !1 a_operand [31:0] $end
+$var wire 32 "1 b_operand [31:0] $end
+$var wire 32 #1 result [31:0] $end
+$var wire 1 $1 Exception $end
+$var reg 1 70 greater $end
+$var reg 1 %1 sign $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 &1 AddBar_Sub $end
+$var wire 1 $1 Exception $end
+$var wire 32 '1 a_operand [31:0] $end
+$var wire 32 (1 b_operand [31:0] $end
+$var wire 1 )1 operation_sub_addBar $end
+$var wire 1 *1 output_sign $end
+$var wire 25 +1 subtraction_diff [24:0] $end
+$var wire 31 ,1 sub_diff [30:0] $end
+$var wire 24 -1 significand_sub_complement [23:0] $end
+$var wire 25 .1 significand_sub [24:0] $end
+$var wire 24 /1 significand_b_add_sub [23:0] $end
+$var wire 24 01 significand_b [23:0] $end
+$var wire 25 11 significand_add [24:0] $end
+$var wire 24 21 significand_a [23:0] $end
+$var wire 32 31 result [31:0] $end
+$var wire 1 41 perform $end
+$var wire 32 51 operand_b [31:0] $end
+$var wire 32 61 operand_a [31:0] $end
+$var wire 8 71 exponent_sub [7:0] $end
+$var wire 8 81 exponent_diff [7:0] $end
+$var wire 8 91 exponent_b_add_sub [7:0] $end
+$var wire 31 :1 add_sum [30:0] $end
+$var wire 1 ;1 Comp_enable $end
+$scope module pe $end
+$var wire 8 <1 Exponent_a [7:0] $end
+$var wire 25 =1 significand [24:0] $end
+$var wire 8 >1 Exponent_sub [7:0] $end
+$var reg 25 ?1 Significand [24:0] $end
+$var reg 5 @1 shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk3[7] $end
+$scope module pa $end
+$var wire 1 0 clear $end
+$var wire 32 A1 decayed_potential [31:0] $end
+$var wire 32 B1 input_weight [31:0] $end
+$var wire 1 C1 set $end
+$var wire 32 D1 weight_added [31:0] $end
+$var wire 32 E1 reset_value [31:0] $end
+$var wire 1 F1 greater $end
+$var wire 1 G1 Exception1 $end
+$var wire 1 H1 Exception $end
+$var reg 1 I1 adderoutput0 $end
+$var reg 1 J1 adderoutput1 $end
+$var reg 1 K1 adderoutput2 $end
+$var reg 1 L1 adderoutput3 $end
+$var reg 1 M1 adderoutput4 $end
+$var reg 1 N1 adderoutput5 $end
+$var reg 1 O1 adderoutput6 $end
+$var reg 1 P1 adderoutput7 $end
+$var reg 1 Q1 adderoutput8 $end
+$var reg 1 R1 adderoutput9 $end
+$var reg 1 S1 done $end
+$var reg 32 T1 final_potential [31:0] $end
+$var reg 2 U1 model [1:0] $end
+$var reg 1 V1 spike $end
+$var reg 32 W1 v_threshold [31:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 X1 AddBar_Sub $end
+$var wire 1 G1 Exception $end
+$var wire 32 Y1 b_operand [31:0] $end
+$var wire 1 Z1 operation_sub_addBar $end
+$var wire 1 [1 output_sign $end
+$var wire 25 \1 subtraction_diff [24:0] $end
+$var wire 31 ]1 sub_diff [30:0] $end
+$var wire 24 ^1 significand_sub_complement [23:0] $end
+$var wire 25 _1 significand_sub [24:0] $end
+$var wire 24 `1 significand_b_add_sub [23:0] $end
+$var wire 24 a1 significand_b [23:0] $end
+$var wire 25 b1 significand_add [24:0] $end
+$var wire 24 c1 significand_a [23:0] $end
+$var wire 32 d1 result [31:0] $end
+$var wire 1 e1 perform $end
+$var wire 32 f1 operand_b [31:0] $end
+$var wire 32 g1 operand_a [31:0] $end
+$var wire 8 h1 exponent_sub [7:0] $end
+$var wire 8 i1 exponent_diff [7:0] $end
+$var wire 8 j1 exponent_b_add_sub [7:0] $end
+$var wire 31 k1 add_sum [30:0] $end
+$var wire 32 l1 a_operand [31:0] $end
+$var wire 1 m1 Comp_enable $end
+$scope module pe $end
+$var wire 8 n1 Exponent_a [7:0] $end
+$var wire 25 o1 significand [24:0] $end
+$var wire 8 p1 Exponent_sub [7:0] $end
+$var reg 25 q1 Significand [24:0] $end
+$var reg 5 r1 shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module Addition_Subtraction_2 $end
+$var wire 1 s1 AddBar_Sub $end
+$var wire 1 H1 Exception $end
+$var wire 32 t1 a_operand [31:0] $end
+$var wire 32 u1 b_operand [31:0] $end
+$var wire 1 v1 operation_sub_addBar $end
+$var wire 1 w1 output_sign $end
+$var wire 25 x1 subtraction_diff [24:0] $end
+$var wire 31 y1 sub_diff [30:0] $end
+$var wire 24 z1 significand_sub_complement [23:0] $end
+$var wire 25 {1 significand_sub [24:0] $end
+$var wire 24 |1 significand_b_add_sub [23:0] $end
+$var wire 24 }1 significand_b [23:0] $end
+$var wire 25 ~1 significand_add [24:0] $end
+$var wire 24 !2 significand_a [23:0] $end
+$var wire 32 "2 result [31:0] $end
+$var wire 1 #2 perform $end
+$var wire 32 $2 operand_b [31:0] $end
+$var wire 32 %2 operand_a [31:0] $end
+$var wire 8 &2 exponent_sub [7:0] $end
+$var wire 8 '2 exponent_diff [7:0] $end
+$var wire 8 (2 exponent_b_add_sub [7:0] $end
+$var wire 31 )2 add_sum [30:0] $end
+$var wire 1 *2 Comp_enable $end
+$scope module pe $end
+$var wire 8 +2 Exponent_a [7:0] $end
+$var wire 25 ,2 significand [24:0] $end
+$var wire 8 -2 Exponent_sub [7:0] $end
+$var reg 25 .2 Significand [24:0] $end
+$var reg 5 /2 shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module comparator_2 $end
+$var wire 32 02 a_operand [31:0] $end
+$var wire 32 12 b_operand [31:0] $end
+$var wire 32 22 result [31:0] $end
+$var wire 1 32 Exception $end
+$var reg 1 F1 greater $end
+$var reg 1 42 sign $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 52 AddBar_Sub $end
+$var wire 1 32 Exception $end
+$var wire 32 62 a_operand [31:0] $end
+$var wire 32 72 b_operand [31:0] $end
+$var wire 1 82 operation_sub_addBar $end
+$var wire 1 92 output_sign $end
+$var wire 25 :2 subtraction_diff [24:0] $end
+$var wire 31 ;2 sub_diff [30:0] $end
+$var wire 24 <2 significand_sub_complement [23:0] $end
+$var wire 25 =2 significand_sub [24:0] $end
+$var wire 24 >2 significand_b_add_sub [23:0] $end
+$var wire 24 ?2 significand_b [23:0] $end
+$var wire 25 @2 significand_add [24:0] $end
+$var wire 24 A2 significand_a [23:0] $end
+$var wire 32 B2 result [31:0] $end
+$var wire 1 C2 perform $end
+$var wire 32 D2 operand_b [31:0] $end
+$var wire 32 E2 operand_a [31:0] $end
+$var wire 8 F2 exponent_sub [7:0] $end
+$var wire 8 G2 exponent_diff [7:0] $end
+$var wire 8 H2 exponent_b_add_sub [7:0] $end
+$var wire 31 I2 add_sum [30:0] $end
+$var wire 1 J2 Comp_enable $end
+$scope module pe $end
+$var wire 8 K2 Exponent_a [7:0] $end
+$var wire 25 L2 significand [24:0] $end
+$var wire 8 M2 Exponent_sub [7:0] $end
+$var reg 25 N2 Significand [24:0] $end
+$var reg 5 O2 shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk3[8] $end
+$scope module pa $end
+$var wire 1 0 clear $end
+$var wire 32 P2 decayed_potential [31:0] $end
+$var wire 32 Q2 input_weight [31:0] $end
+$var wire 1 R2 set $end
+$var wire 32 S2 weight_added [31:0] $end
+$var wire 32 T2 reset_value [31:0] $end
+$var wire 1 U2 greater $end
+$var wire 1 V2 Exception1 $end
+$var wire 1 W2 Exception $end
+$var reg 1 X2 adderoutput0 $end
+$var reg 1 Y2 adderoutput1 $end
+$var reg 1 Z2 adderoutput2 $end
+$var reg 1 [2 adderoutput3 $end
+$var reg 1 \2 adderoutput4 $end
+$var reg 1 ]2 adderoutput5 $end
+$var reg 1 ^2 adderoutput6 $end
+$var reg 1 _2 adderoutput7 $end
+$var reg 1 `2 adderoutput8 $end
+$var reg 1 a2 adderoutput9 $end
+$var reg 1 b2 done $end
+$var reg 32 c2 final_potential [31:0] $end
+$var reg 2 d2 model [1:0] $end
+$var reg 1 e2 spike $end
+$var reg 32 f2 v_threshold [31:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 g2 AddBar_Sub $end
+$var wire 1 V2 Exception $end
+$var wire 32 h2 b_operand [31:0] $end
+$var wire 1 i2 operation_sub_addBar $end
+$var wire 1 j2 output_sign $end
+$var wire 25 k2 subtraction_diff [24:0] $end
+$var wire 31 l2 sub_diff [30:0] $end
+$var wire 24 m2 significand_sub_complement [23:0] $end
+$var wire 25 n2 significand_sub [24:0] $end
+$var wire 24 o2 significand_b_add_sub [23:0] $end
+$var wire 24 p2 significand_b [23:0] $end
+$var wire 25 q2 significand_add [24:0] $end
+$var wire 24 r2 significand_a [23:0] $end
+$var wire 32 s2 result [31:0] $end
+$var wire 1 t2 perform $end
+$var wire 32 u2 operand_b [31:0] $end
+$var wire 32 v2 operand_a [31:0] $end
+$var wire 8 w2 exponent_sub [7:0] $end
+$var wire 8 x2 exponent_diff [7:0] $end
+$var wire 8 y2 exponent_b_add_sub [7:0] $end
+$var wire 31 z2 add_sum [30:0] $end
+$var wire 32 {2 a_operand [31:0] $end
+$var wire 1 |2 Comp_enable $end
+$scope module pe $end
+$var wire 8 }2 Exponent_a [7:0] $end
+$var wire 25 ~2 significand [24:0] $end
+$var wire 8 !3 Exponent_sub [7:0] $end
+$var reg 25 "3 Significand [24:0] $end
+$var reg 5 #3 shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module Addition_Subtraction_2 $end
+$var wire 1 $3 AddBar_Sub $end
+$var wire 1 W2 Exception $end
+$var wire 32 %3 a_operand [31:0] $end
+$var wire 32 &3 b_operand [31:0] $end
+$var wire 1 '3 operation_sub_addBar $end
+$var wire 1 (3 output_sign $end
+$var wire 25 )3 subtraction_diff [24:0] $end
+$var wire 31 *3 sub_diff [30:0] $end
+$var wire 24 +3 significand_sub_complement [23:0] $end
+$var wire 25 ,3 significand_sub [24:0] $end
+$var wire 24 -3 significand_b_add_sub [23:0] $end
+$var wire 24 .3 significand_b [23:0] $end
+$var wire 25 /3 significand_add [24:0] $end
+$var wire 24 03 significand_a [23:0] $end
+$var wire 32 13 result [31:0] $end
+$var wire 1 23 perform $end
+$var wire 32 33 operand_b [31:0] $end
+$var wire 32 43 operand_a [31:0] $end
+$var wire 8 53 exponent_sub [7:0] $end
+$var wire 8 63 exponent_diff [7:0] $end
+$var wire 8 73 exponent_b_add_sub [7:0] $end
+$var wire 31 83 add_sum [30:0] $end
+$var wire 1 93 Comp_enable $end
+$scope module pe $end
+$var wire 8 :3 Exponent_a [7:0] $end
+$var wire 25 ;3 significand [24:0] $end
+$var wire 8 <3 Exponent_sub [7:0] $end
+$var reg 25 =3 Significand [24:0] $end
+$var reg 5 >3 shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module comparator_2 $end
+$var wire 32 ?3 a_operand [31:0] $end
+$var wire 32 @3 b_operand [31:0] $end
+$var wire 32 A3 result [31:0] $end
+$var wire 1 B3 Exception $end
+$var reg 1 U2 greater $end
+$var reg 1 C3 sign $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 D3 AddBar_Sub $end
+$var wire 1 B3 Exception $end
+$var wire 32 E3 a_operand [31:0] $end
+$var wire 32 F3 b_operand [31:0] $end
+$var wire 1 G3 operation_sub_addBar $end
+$var wire 1 H3 output_sign $end
+$var wire 25 I3 subtraction_diff [24:0] $end
+$var wire 31 J3 sub_diff [30:0] $end
+$var wire 24 K3 significand_sub_complement [23:0] $end
+$var wire 25 L3 significand_sub [24:0] $end
+$var wire 24 M3 significand_b_add_sub [23:0] $end
+$var wire 24 N3 significand_b [23:0] $end
+$var wire 25 O3 significand_add [24:0] $end
+$var wire 24 P3 significand_a [23:0] $end
+$var wire 32 Q3 result [31:0] $end
+$var wire 1 R3 perform $end
+$var wire 32 S3 operand_b [31:0] $end
+$var wire 32 T3 operand_a [31:0] $end
+$var wire 8 U3 exponent_sub [7:0] $end
+$var wire 8 V3 exponent_diff [7:0] $end
+$var wire 8 W3 exponent_b_add_sub [7:0] $end
+$var wire 31 X3 add_sum [30:0] $end
+$var wire 1 Y3 Comp_enable $end
+$scope module pe $end
+$var wire 8 Z3 Exponent_a [7:0] $end
+$var wire 25 [3 significand [24:0] $end
+$var wire 8 \3 Exponent_sub [7:0] $end
+$var reg 25 ]3 Significand [24:0] $end
+$var reg 5 ^3 shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk3[9] $end
+$scope module pa $end
+$var wire 1 0 clear $end
+$var wire 32 _3 decayed_potential [31:0] $end
+$var wire 32 `3 input_weight [31:0] $end
+$var wire 1 a3 set $end
+$var wire 32 b3 weight_added [31:0] $end
+$var wire 32 c3 reset_value [31:0] $end
+$var wire 1 d3 greater $end
+$var wire 1 e3 Exception1 $end
+$var wire 1 f3 Exception $end
+$var reg 1 g3 adderoutput0 $end
+$var reg 1 h3 adderoutput1 $end
+$var reg 1 i3 adderoutput2 $end
+$var reg 1 j3 adderoutput3 $end
+$var reg 1 k3 adderoutput4 $end
+$var reg 1 l3 adderoutput5 $end
+$var reg 1 m3 adderoutput6 $end
+$var reg 1 n3 adderoutput7 $end
+$var reg 1 o3 adderoutput8 $end
+$var reg 1 p3 adderoutput9 $end
+$var reg 1 q3 done $end
+$var reg 32 r3 final_potential [31:0] $end
+$var reg 2 s3 model [1:0] $end
+$var reg 1 t3 spike $end
+$var reg 32 u3 v_threshold [31:0] $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 v3 AddBar_Sub $end
+$var wire 1 e3 Exception $end
+$var wire 32 w3 b_operand [31:0] $end
+$var wire 1 x3 operation_sub_addBar $end
+$var wire 1 y3 output_sign $end
+$var wire 25 z3 subtraction_diff [24:0] $end
+$var wire 31 {3 sub_diff [30:0] $end
+$var wire 24 |3 significand_sub_complement [23:0] $end
+$var wire 25 }3 significand_sub [24:0] $end
+$var wire 24 ~3 significand_b_add_sub [23:0] $end
+$var wire 24 !4 significand_b [23:0] $end
+$var wire 25 "4 significand_add [24:0] $end
+$var wire 24 #4 significand_a [23:0] $end
+$var wire 32 $4 result [31:0] $end
+$var wire 1 %4 perform $end
+$var wire 32 &4 operand_b [31:0] $end
+$var wire 32 '4 operand_a [31:0] $end
+$var wire 8 (4 exponent_sub [7:0] $end
+$var wire 8 )4 exponent_diff [7:0] $end
+$var wire 8 *4 exponent_b_add_sub [7:0] $end
+$var wire 31 +4 add_sum [30:0] $end
+$var wire 32 ,4 a_operand [31:0] $end
+$var wire 1 -4 Comp_enable $end
+$scope module pe $end
+$var wire 8 .4 Exponent_a [7:0] $end
+$var wire 25 /4 significand [24:0] $end
+$var wire 8 04 Exponent_sub [7:0] $end
+$var reg 25 14 Significand [24:0] $end
+$var reg 5 24 shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module Addition_Subtraction_2 $end
+$var wire 1 34 AddBar_Sub $end
+$var wire 1 f3 Exception $end
+$var wire 32 44 a_operand [31:0] $end
+$var wire 32 54 b_operand [31:0] $end
+$var wire 1 64 operation_sub_addBar $end
+$var wire 1 74 output_sign $end
+$var wire 25 84 subtraction_diff [24:0] $end
+$var wire 31 94 sub_diff [30:0] $end
+$var wire 24 :4 significand_sub_complement [23:0] $end
+$var wire 25 ;4 significand_sub [24:0] $end
+$var wire 24 <4 significand_b_add_sub [23:0] $end
+$var wire 24 =4 significand_b [23:0] $end
+$var wire 25 >4 significand_add [24:0] $end
+$var wire 24 ?4 significand_a [23:0] $end
+$var wire 32 @4 result [31:0] $end
+$var wire 1 A4 perform $end
+$var wire 32 B4 operand_b [31:0] $end
+$var wire 32 C4 operand_a [31:0] $end
+$var wire 8 D4 exponent_sub [7:0] $end
+$var wire 8 E4 exponent_diff [7:0] $end
+$var wire 8 F4 exponent_b_add_sub [7:0] $end
+$var wire 31 G4 add_sum [30:0] $end
+$var wire 1 H4 Comp_enable $end
+$scope module pe $end
+$var wire 8 I4 Exponent_a [7:0] $end
+$var wire 25 J4 significand [24:0] $end
+$var wire 8 K4 Exponent_sub [7:0] $end
+$var reg 25 L4 Significand [24:0] $end
+$var reg 5 M4 shift [4:0] $end
+$upscope $end
+$upscope $end
+$scope module comparator_2 $end
+$var wire 32 N4 a_operand [31:0] $end
+$var wire 32 O4 b_operand [31:0] $end
+$var wire 32 P4 result [31:0] $end
+$var wire 1 Q4 Exception $end
+$var reg 1 d3 greater $end
+$var reg 1 R4 sign $end
+$scope module Addition_Subtraction_1 $end
+$var wire 1 S4 AddBar_Sub $end
+$var wire 1 Q4 Exception $end
+$var wire 32 T4 a_operand [31:0] $end
+$var wire 32 U4 b_operand [31:0] $end
+$var wire 1 V4 operation_sub_addBar $end
+$var wire 1 W4 output_sign $end
+$var wire 25 X4 subtraction_diff [24:0] $end
+$var wire 31 Y4 sub_diff [30:0] $end
+$var wire 24 Z4 significand_sub_complement [23:0] $end
+$var wire 25 [4 significand_sub [24:0] $end
+$var wire 24 \4 significand_b_add_sub [23:0] $end
+$var wire 24 ]4 significand_b [23:0] $end
+$var wire 25 ^4 significand_add [24:0] $end
+$var wire 24 _4 significand_a [23:0] $end
+$var wire 32 `4 result [31:0] $end
+$var wire 1 a4 perform $end
+$var wire 32 b4 operand_b [31:0] $end
+$var wire 32 c4 operand_a [31:0] $end
+$var wire 8 d4 exponent_sub [7:0] $end
+$var wire 8 e4 exponent_diff [7:0] $end
+$var wire 8 f4 exponent_b_add_sub [7:0] $end
+$var wire 31 g4 add_sum [30:0] $end
+$var wire 1 h4 Comp_enable $end
+$scope module pe $end
+$var wire 8 i4 Exponent_a [7:0] $end
+$var wire 25 j4 significand [24:0] $end
+$var wire 8 k4 Exponent_sub [7:0] $end
+$var reg 25 l4 Significand [24:0] $end
+$var reg 5 m4 shift [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module ni1 $end
+$var wire 1 + CLK $end
+$var wire 1 0 clear $end
+$var wire 1 K) spike0 $end
+$var wire 1 Z* spike1 $end
+$var wire 1 n4 spike10 $end
+$var wire 1 o4 spike11 $end
+$var wire 1 p4 spike12 $end
+$var wire 1 q4 spike13 $end
+$var wire 1 r4 spike14 $end
+$var wire 1 s4 spike15 $end
+$var wire 1 t4 spike16 $end
+$var wire 1 u4 spike17 $end
+$var wire 1 v4 spike18 $end
+$var wire 1 w4 spike19 $end
+$var wire 1 i+ spike2 $end
+$var wire 1 x, spike3 $end
+$var wire 1 ). spike4 $end
+$var wire 1 8/ spike5 $end
+$var wire 1 G0 spike6 $end
+$var wire 1 V1 spike7 $end
+$var wire 1 e2 spike8 $end
+$var wire 1 t3 spike9 $end
+$var reg 2 x4 phase [1:0] $end
+$var reg 4 y4 phase_counter [3:0] $end
+$var reg 12 z4 spike_out_source0 [11:0] $end
+$var reg 12 {4 spike_out_source1 [11:0] $end
+$var reg 12 |4 spike_out_source10 [11:0] $end
+$var reg 12 }4 spike_out_source11 [11:0] $end
+$var reg 12 ~4 spike_out_source12 [11:0] $end
+$var reg 12 !5 spike_out_source13 [11:0] $end
+$var reg 12 "5 spike_out_source14 [11:0] $end
+$var reg 12 #5 spike_out_source15 [11:0] $end
+$var reg 12 $5 spike_out_source16 [11:0] $end
+$var reg 12 %5 spike_out_source17 [11:0] $end
+$var reg 12 &5 spike_out_source18 [11:0] $end
+$var reg 12 '5 spike_out_source19 [11:0] $end
+$var reg 12 (5 spike_out_source2 [11:0] $end
+$var reg 12 )5 spike_out_source3 [11:0] $end
+$var reg 12 *5 spike_out_source4 [11:0] $end
+$var reg 12 +5 spike_out_source5 [11:0] $end
+$var reg 12 ,5 spike_out_source6 [11:0] $end
+$var reg 12 -5 spike_out_source7 [11:0] $end
+$var reg 12 .5 spike_out_source8 [11:0] $end
+$var reg 12 /5 spike_out_source9 [11:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx /5
+bx .5
+bx -5
+bx ,5
+bx +5
+bx *5
+bx )5
+bx (5
+bx '5
+bx &5
+bx %5
+bx $5
+bx #5
+bx "5
+bx !5
+bx ~4
+bx }4
+bx |4
+bx {4
+bx z4
+bx y4
+bx x4
+zw4
+zv4
+zu4
+zt4
+zs4
+zr4
+zq4
+zp4
+zo4
+zn4
+bx m4
+bx l4
+bx k4
+bx j4
+bx i4
+xh4
+bx g4
+bx f4
+bx e4
+bx d4
+bx c4
+bx b4
+xa4
+bx `4
+bx _4
+bx ^4
+bx ]4
+bx \4
+bx [4
+bx Z4
+bx Y4
+bx X4
+xW4
+xV4
+bx U4
+bx T4
+1S4
+xR4
+xQ4
+bx P4
+bx O4
+bx N4
+bx M4
+bx L4
+bx K4
+bx J4
+bx I4
+xH4
+bx G4
+bx F4
+bx E4
+bx D4
+bx C4
+bx B4
+xA4
+bx @4
+bx ?4
+bx >4
+bx =4
+bx <4
+bx ;4
+bx :4
+bx 94
+bx 84
+x74
+x64
+bx 54
+bx 44
+034
+bx 24
+bx 14
+bx 04
+bx /4
+bx .4
+x-4
+bx ,4
+bx +4
+bx *4
+bx )4
+bx (4
+bx '4
+bx &4
+x%4
+bx $4
+bx #4
+bx "4
+bx !4
+bx ~3
+bx }3
+bx |3
+bx {3
+bx z3
+xy3
+xx3
+bx w3
+1v3
+bx u3
+xt3
+bx s3
+bx r3
+xq3
+xp3
+xo3
+xn3
+xm3
+xl3
+xk3
+xj3
+xi3
+xh3
+xg3
+xf3
+xe3
+xd3
+bx c3
+bx b3
+za3
+bx `3
+bx _3
+bx ^3
+bx ]3
+bx \3
+bx [3
+bx Z3
+xY3
+bx X3
+bx W3
+bx V3
+bx U3
+bx T3
+bx S3
+xR3
+bx Q3
+bx P3
+bx O3
+bx N3
+bx M3
+bx L3
+bx K3
+bx J3
+bx I3
+xH3
+xG3
+bx F3
+bx E3
+1D3
+xC3
+xB3
+bx A3
+bx @3
+bx ?3
+bx >3
+bx =3
+bx <3
+bx ;3
+bx :3
+x93
+bx 83
+bx 73
+bx 63
+bx 53
+bx 43
+bx 33
+x23
+bx 13
+bx 03
+bx /3
+bx .3
+bx -3
+bx ,3
+bx +3
+bx *3
+bx )3
+x(3
+x'3
+bx &3
+bx %3
+0$3
+bx #3
+bx "3
+bx !3
+bx ~2
+bx }2
+x|2
+bx {2
+bx z2
+bx y2
+bx x2
+bx w2
+bx v2
+bx u2
+xt2
+bx s2
+bx r2
+bx q2
+bx p2
+bx o2
+bx n2
+bx m2
+bx l2
+bx k2
+xj2
+xi2
+bx h2
+1g2
+bx f2
+xe2
+bx d2
+bx c2
+xb2
+xa2
+x`2
+x_2
+x^2
+x]2
+x\2
+x[2
+xZ2
+xY2
+xX2
+xW2
+xV2
+xU2
+bx T2
+bx S2
+zR2
+bx Q2
+bx P2
+bx O2
+bx N2
+bx M2
+bx L2
+bx K2
+xJ2
+bx I2
+bx H2
+bx G2
+bx F2
+bx E2
+bx D2
+xC2
+bx B2
+bx A2
+bx @2
+bx ?2
+bx >2
+bx =2
+bx <2
+bx ;2
+bx :2
+x92
+x82
+bx 72
+bx 62
+152
+x42
+x32
+bx 22
+bx 12
+bx 02
+bx /2
+bx .2
+bx -2
+bx ,2
+bx +2
+x*2
+bx )2
+bx (2
+bx '2
+bx &2
+bx %2
+bx $2
+x#2
+bx "2
+bx !2
+bx ~1
+bx }1
+bx |1
+bx {1
+bx z1
+bx y1
+bx x1
+xw1
+xv1
+bx u1
+bx t1
+0s1
+bx r1
+bx q1
+bx p1
+bx o1
+bx n1
+xm1
+bx l1
+bx k1
+bx j1
+bx i1
+bx h1
+bx g1
+bx f1
+xe1
+bx d1
+bx c1
+bx b1
+bx a1
+bx `1
+bx _1
+bx ^1
+bx ]1
+bx \1
+x[1
+xZ1
+bx Y1
+1X1
+bx W1
+xV1
+bx U1
+bx T1
+xS1
+xR1
+xQ1
+xP1
+xO1
+xN1
+xM1
+xL1
+xK1
+xJ1
+xI1
+xH1
+xG1
+xF1
+bx E1
+bx D1
+zC1
+bx B1
+bx A1
+bx @1
+bx ?1
+bx >1
+bx =1
+bx <1
+x;1
+bx :1
+bx 91
+bx 81
+bx 71
+bx 61
+bx 51
+x41
+bx 31
+bx 21
+bx 11
+bx 01
+bx /1
+bx .1
+bx -1
+bx ,1
+bx +1
+x*1
+x)1
+bx (1
+bx '1
+1&1
+x%1
+x$1
+bx #1
+bx "1
+bx !1
+bx ~0
+bx }0
+bx |0
+bx {0
+bx z0
+xy0
+bx x0
+bx w0
+bx v0
+bx u0
+bx t0
+bx s0
+xr0
+bx q0
+bx p0
+bx o0
+bx n0
+bx m0
+bx l0
+bx k0
+bx j0
+bx i0
+xh0
+xg0
+bx f0
+bx e0
+0d0
+bx c0
+bx b0
+bx a0
+bx `0
+bx _0
+x^0
+bx ]0
+bx \0
+bx [0
+bx Z0
+bx Y0
+bx X0
+bx W0
+xV0
+bx U0
+bx T0
+bx S0
+bx R0
+bx Q0
+bx P0
+bx O0
+bx N0
+bx M0
+xL0
+xK0
+bx J0
+1I0
+bx H0
+xG0
+bx F0
+bx E0
+xD0
+xC0
+xB0
+xA0
+x@0
+x?0
+x>0
+x=0
+x<0
+x;0
+x:0
+x90
+x80
+x70
+bx 60
+bx 50
+z40
+bx 30
+bx 20
+bx 10
+bx 00
+bx /0
+bx .0
+bx -0
+x,0
+bx +0
+bx *0
+bx )0
+bx (0
+bx '0
+bx &0
+x%0
+bx $0
+bx #0
+bx "0
+bx !0
+bx ~/
+bx }/
+bx |/
+bx {/
+bx z/
+xy/
+xx/
+bx w/
+bx v/
+1u/
+xt/
+xs/
+bx r/
+bx q/
+bx p/
+bx o/
+bx n/
+bx m/
+bx l/
+bx k/
+xj/
+bx i/
+bx h/
+bx g/
+bx f/
+bx e/
+bx d/
+xc/
+bx b/
+bx a/
+bx `/
+bx _/
+bx ^/
+bx ]/
+bx \/
+bx [/
+bx Z/
+xY/
+xX/
+bx W/
+bx V/
+0U/
+bx T/
+bx S/
+bx R/
+bx Q/
+bx P/
+xO/
+bx N/
+bx M/
+bx L/
+bx K/
+bx J/
+bx I/
+bx H/
+xG/
+bx F/
+bx E/
+bx D/
+bx C/
+bx B/
+bx A/
+bx @/
+bx ?/
+bx >/
+x=/
+x</
+bx ;/
+1:/
+bx 9/
+x8/
+bx 7/
+bx 6/
+x5/
+x4/
+x3/
+x2/
+x1/
+x0/
+x//
+x./
+x-/
+x,/
+x+/
+x*/
+x)/
+x(/
+bx '/
+bx &/
+z%/
+bx $/
+bx #/
+bx "/
+bx !/
+bx ~.
+bx }.
+bx |.
+x{.
+bx z.
+bx y.
+bx x.
+bx w.
+bx v.
+bx u.
+xt.
+bx s.
+bx r.
+bx q.
+bx p.
+bx o.
+bx n.
+bx m.
+bx l.
+bx k.
+xj.
+xi.
+bx h.
+bx g.
+1f.
+xe.
+xd.
+bx c.
+bx b.
+bx a.
+bx `.
+bx _.
+bx ^.
+bx ].
+bx \.
+x[.
+bx Z.
+bx Y.
+bx X.
+bx W.
+bx V.
+bx U.
+xT.
+bx S.
+bx R.
+bx Q.
+bx P.
+bx O.
+bx N.
+bx M.
+bx L.
+bx K.
+xJ.
+xI.
+bx H.
+bx G.
+0F.
+bx E.
+bx D.
+bx C.
+bx B.
+bx A.
+x@.
+bx ?.
+bx >.
+bx =.
+bx <.
+bx ;.
+bx :.
+bx 9.
+x8.
+bx 7.
+bx 6.
+bx 5.
+bx 4.
+bx 3.
+bx 2.
+bx 1.
+bx 0.
+bx /.
+x..
+x-.
+bx ,.
+1+.
+bx *.
+x).
+bx (.
+bx '.
+x&.
+x%.
+x$.
+x#.
+x".
+x!.
+x~-
+x}-
+x|-
+x{-
+xz-
+xy-
+xx-
+xw-
+bx v-
+bx u-
+zt-
+bx s-
+bx r-
+bx q-
+bx p-
+bx o-
+bx n-
+bx m-
+xl-
+bx k-
+bx j-
+bx i-
+bx h-
+bx g-
+bx f-
+xe-
+bx d-
+bx c-
+bx b-
+bx a-
+bx `-
+bx _-
+bx ^-
+bx ]-
+bx \-
+x[-
+xZ-
+bx Y-
+bx X-
+1W-
+xV-
+xU-
+bx T-
+bx S-
+bx R-
+bx Q-
+bx P-
+bx O-
+bx N-
+bx M-
+xL-
+bx K-
+bx J-
+bx I-
+bx H-
+bx G-
+bx F-
+xE-
+bx D-
+bx C-
+bx B-
+bx A-
+bx @-
+bx ?-
+bx >-
+bx =-
+bx <-
+x;-
+x:-
+bx 9-
+bx 8-
+07-
+bx 6-
+bx 5-
+bx 4-
+bx 3-
+bx 2-
+x1-
+bx 0-
+bx /-
+bx .-
+bx --
+bx ,-
+bx +-
+bx *-
+x)-
+bx (-
+bx '-
+bx &-
+bx %-
+bx $-
+bx #-
+bx "-
+bx !-
+bx ~,
+x},
+x|,
+bx {,
+1z,
+bx y,
+xx,
+bx w,
+bx v,
+xu,
+xt,
+xs,
+xr,
+xq,
+xp,
+xo,
+xn,
+xm,
+xl,
+xk,
+xj,
+xi,
+xh,
+bx g,
+bx f,
+ze,
+bx d,
+bx c,
+bx b,
+bx a,
+bx `,
+bx _,
+bx ^,
+x],
+bx \,
+bx [,
+bx Z,
+bx Y,
+bx X,
+bx W,
+xV,
+bx U,
+bx T,
+bx S,
+bx R,
+bx Q,
+bx P,
+bx O,
+bx N,
+bx M,
+xL,
+xK,
+bx J,
+bx I,
+1H,
+xG,
+xF,
+bx E,
+bx D,
+bx C,
+bx B,
+bx A,
+bx @,
+bx ?,
+bx >,
+x=,
+bx <,
+bx ;,
+bx :,
+bx 9,
+bx 8,
+bx 7,
+x6,
+bx 5,
+bx 4,
+bx 3,
+bx 2,
+bx 1,
+bx 0,
+bx /,
+bx .,
+bx -,
+x,,
+x+,
+bx *,
+bx ),
+0(,
+bx ',
+bx &,
+bx %,
+bx $,
+bx #,
+x",
+bx !,
+bx ~+
+bx }+
+bx |+
+bx {+
+bx z+
+bx y+
+xx+
+bx w+
+bx v+
+bx u+
+bx t+
+bx s+
+bx r+
+bx q+
+bx p+
+bx o+
+xn+
+xm+
+bx l+
+1k+
+bx j+
+xi+
+bx h+
+bx g+
+xf+
+xe+
+xd+
+xc+
+xb+
+xa+
+x`+
+x_+
+x^+
+x]+
+x\+
+x[+
+xZ+
+xY+
+bx X+
+bx W+
+zV+
+bx U+
+bx T+
+bx S+
+bx R+
+bx Q+
+bx P+
+bx O+
+xN+
+bx M+
+bx L+
+bx K+
+bx J+
+bx I+
+bx H+
+xG+
+bx F+
+bx E+
+bx D+
+bx C+
+bx B+
+bx A+
+bx @+
+bx ?+
+bx >+
+x=+
+x<+
+bx ;+
+bx :+
+19+
+x8+
+x7+
+bx 6+
+bx 5+
+bx 4+
+bx 3+
+bx 2+
+bx 1+
+bx 0+
+bx /+
+x.+
+bx -+
+bx ,+
+bx ++
+bx *+
+bx )+
+bx (+
+x'+
+bx &+
+bx %+
+bx $+
+bx #+
+bx "+
+bx !+
+bx ~*
+bx }*
+bx |*
+x{*
+xz*
+bx y*
+bx x*
+0w*
+bx v*
+bx u*
+bx t*
+bx s*
+bx r*
+xq*
+bx p*
+bx o*
+bx n*
+bx m*
+bx l*
+bx k*
+bx j*
+xi*
+bx h*
+bx g*
+bx f*
+bx e*
+bx d*
+bx c*
+bx b*
+bx a*
+bx `*
+x_*
+x^*
+bx ]*
+1\*
+bx [*
+xZ*
+bx Y*
+bx X*
+xW*
+xV*
+xU*
+xT*
+xS*
+xR*
+xQ*
+xP*
+xO*
+xN*
+xM*
+xL*
+xK*
+xJ*
+bx I*
+bx H*
+zG*
+bx F*
+bx E*
+bx D*
+bx C*
+bx B*
+bx A*
+bx @*
+x?*
+bx >*
+bx =*
+bx <*
+bx ;*
+bx :*
+bx 9*
+x8*
+bx 7*
+bx 6*
+bx 5*
+bx 4*
+bx 3*
+bx 2*
+bx 1*
+bx 0*
+bx /*
+x.*
+x-*
+bx ,*
+bx +*
+1**
+x)*
+x(*
+bx '*
+bx &*
+bx %*
+bx $*
+bx #*
+bx "*
+bx !*
+bx ~)
+x})
+bx |)
+bx {)
+bx z)
+bx y)
+bx x)
+bx w)
+xv)
+bx u)
+bx t)
+bx s)
+bx r)
+bx q)
+bx p)
+bx o)
+bx n)
+bx m)
+xl)
+xk)
+bx j)
+bx i)
+0h)
+bx g)
+bx f)
+bx e)
+bx d)
+bx c)
+xb)
+bx a)
+bx `)
+bx _)
+bx ^)
+bx ])
+bx \)
+bx [)
+xZ)
+bx Y)
+bx X)
+bx W)
+bx V)
+bx U)
+bx T)
+bx S)
+bx R)
+bx Q)
+xP)
+xO)
+bx N)
+1M)
+bx L)
+xK)
+bx J)
+bx I)
+xH)
+xG)
+xF)
+xE)
+xD)
+xC)
+xB)
+xA)
+x@)
+x?)
+x>)
+x=)
+x<)
+x;)
+bx :)
+bx 9)
+z8)
+bx 7)
+bx 6)
+b0 5)
+bx 4)
+x3)
+x2)
+x1)
+x0)
+x/)
+x.)
+x-)
+x,)
+x+)
+x*)
+b10 ))
+x()
+bx ')
+0&)
+bx %)
+bx $)
+b0 #)
+bx ")
+x!)
+x~(
+x}(
+x|(
+x{(
+xz(
+xy(
+xx(
+xw(
+xv(
+b10 u(
+xt(
+bx s(
+0r(
+bx q(
+bx p(
+b0 o(
+bx n(
+xm(
+xl(
+xk(
+xj(
+xi(
+xh(
+xg(
+xf(
+xe(
+xd(
+b10 c(
+xb(
+bx a(
+0`(
+bx _(
+bx ^(
+b0 ](
+bx \(
+x[(
+xZ(
+xY(
+xX(
+xW(
+xV(
+xU(
+xT(
+xS(
+xR(
+b10 Q(
+xP(
+bx O(
+0N(
+bx M(
+bx L(
+b0 K(
+bx J(
+xI(
+xH(
+xG(
+xF(
+xE(
+xD(
+xC(
+xB(
+xA(
+x@(
+b10 ?(
+x>(
+bx =(
+0<(
+bx ;(
+bx :(
+b0 9(
+bx 8(
+x7(
+x6(
+x5(
+x4(
+x3(
+x2(
+x1(
+x0(
+x/(
+x.(
+b10 -(
+x,(
+bx +(
+0*(
+bx )(
+bx ((
+b0 '(
+bx &(
+x%(
+x$(
+x#(
+x"(
+x!(
+x~'
+x}'
+x|'
+x{'
+xz'
+b10 y'
+xx'
+bx w'
+0v'
+bx u'
+bx t'
+b0 s'
+bx r'
+xq'
+xp'
+xo'
+xn'
+xm'
+xl'
+xk'
+xj'
+xi'
+xh'
+b10 g'
+xf'
+bx e'
+0d'
+bx c'
+bx b'
+b0 a'
+bx `'
+x_'
+x^'
+x]'
+x\'
+x['
+xZ'
+xY'
+xX'
+xW'
+xV'
+b10 U'
+xT'
+bx S'
+0R'
+bx Q'
+bx P'
+b0 O'
+bx N'
+xM'
+xL'
+xK'
+xJ'
+xI'
+xH'
+xG'
+xF'
+xE'
+xD'
+b10 C'
+xB'
+bx A'
+0@'
+bx ?'
+bx >'
+bx ='
+bx <'
+bx ;'
+bx :'
+bx 9'
+x8'
+bx 7'
+bx 6'
+bx 5'
+bx 4'
+bx 3'
+bx 2'
+x1'
+bx 0'
+bx /'
+bx .'
+bx -'
+bx ,'
+bx +'
+bx *'
+bx )'
+bx ('
+x''
+x&'
+bx %'
+bx $'
+0#'
+bx "'
+bx !'
+bx ~&
+bx }&
+bx |&
+bx {&
+bx z&
+bx y&
+bx x&
+0w&
+bx v&
+bx u&
+bx t&
+xs&
+xr&
+xq&
+xp&
+xo&
+xn&
+xm&
+xl&
+xk&
+xj&
+xi&
+bx h&
+bx g&
+xf&
+bx e&
+bx d&
+zc&
+bx b&
+bx a&
+bx `&
+bx _&
+bx ^&
+x]&
+bx \&
+bx [&
+bx Z&
+bx Y&
+bx X&
+bx W&
+xV&
+bx U&
+bx T&
+bx S&
+bx R&
+bx Q&
+bx P&
+bx O&
+bx N&
+bx M&
+xL&
+xK&
+bx J&
+bx I&
+0H&
+bx G&
+bx F&
+bx E&
+bx D&
+bx C&
+bx B&
+bx A&
+bx @&
+bx ?&
+0>&
+bx =&
+bx <&
+bx ;&
+x:&
+x9&
+x8&
+x7&
+x6&
+x5&
+x4&
+x3&
+x2&
+x1&
+x0&
+bx /&
+bx .&
+x-&
+bx ,&
+bx +&
+z*&
+bx )&
+bx (&
+bx '&
+bx &&
+bx %&
+x$&
+bx #&
+bx "&
+bx !&
+bx ~%
+bx }%
+bx |%
+x{%
+bx z%
+bx y%
+bx x%
+bx w%
+bx v%
+bx u%
+bx t%
+bx s%
+bx r%
+xq%
+xp%
+bx o%
+bx n%
+0m%
+bx l%
+bx k%
+bx j%
+bx i%
+bx h%
+bx g%
+bx f%
+bx e%
+bx d%
+0c%
+bx b%
+bx a%
+bx `%
+x_%
+x^%
+x]%
+x\%
+x[%
+xZ%
+xY%
+xX%
+xW%
+xV%
+xU%
+bx T%
+bx S%
+xR%
+bx Q%
+bx P%
+zO%
+bx N%
+bx M%
+bx L%
+bx K%
+bx J%
+xI%
+bx H%
+bx G%
+bx F%
+bx E%
+bx D%
+bx C%
+xB%
+bx A%
+bx @%
+bx ?%
+bx >%
+bx =%
+bx <%
+bx ;%
+bx :%
+bx 9%
+x8%
+x7%
+bx 6%
+bx 5%
+04%
+bx 3%
+bx 2%
+bx 1%
+bx 0%
+bx /%
+bx .%
+bx -%
+bx ,%
+bx +%
+0*%
+bx )%
+bx (%
+bx '%
+x&%
+x%%
+x$%
+x#%
+x"%
+x!%
+x~$
+x}$
+x|$
+x{$
+xz$
+bx y$
+bx x$
+xw$
+bx v$
+bx u$
+zt$
+bx s$
+bx r$
+bx q$
+bx p$
+bx o$
+xn$
+bx m$
+bx l$
+bx k$
+bx j$
+bx i$
+bx h$
+xg$
+bx f$
+bx e$
+bx d$
+bx c$
+bx b$
+bx a$
+bx `$
+bx _$
+bx ^$
+x]$
+x\$
+bx [$
+bx Z$
+0Y$
+bx X$
+bx W$
+bx V$
+bx U$
+bx T$
+bx S$
+bx R$
+bx Q$
+bx P$
+0O$
+bx N$
+bx M$
+bx L$
+xK$
+xJ$
+xI$
+xH$
+xG$
+xF$
+xE$
+xD$
+xC$
+xB$
+xA$
+bx @$
+bx ?$
+x>$
+bx =$
+bx <$
+z;$
+bx :$
+bx 9$
+bx 8$
+bx 7$
+bx 6$
+x5$
+bx 4$
+bx 3$
+bx 2$
+bx 1$
+bx 0$
+bx /$
+x.$
+bx -$
+bx ,$
+bx +$
+bx *$
+bx )$
+bx ($
+bx '$
+bx &$
+bx %$
+x$$
+x#$
+bx "$
+bx !$
+0~#
+bx }#
+bx |#
+bx {#
+bx z#
+bx y#
+bx x#
+bx w#
+bx v#
+bx u#
+0t#
+bx s#
+bx r#
+bx q#
+xp#
+xo#
+xn#
+xm#
+xl#
+xk#
+xj#
+xi#
+xh#
+xg#
+xf#
+bx e#
+bx d#
+xc#
+bx b#
+bx a#
+z`#
+bx _#
+bx ^#
+bx ]#
+bx \#
+bx [#
+xZ#
+bx Y#
+bx X#
+bx W#
+bx V#
+bx U#
+bx T#
+xS#
+bx R#
+bx Q#
+bx P#
+bx O#
+bx N#
+bx M#
+bx L#
+bx K#
+bx J#
+xI#
+xH#
+bx G#
+bx F#
+0E#
+bx D#
+bx C#
+bx B#
+bx A#
+bx @#
+bx ?#
+bx >#
+bx =#
+bx <#
+0;#
+bx :#
+bx 9#
+bx 8#
+x7#
+x6#
+x5#
+x4#
+x3#
+x2#
+x1#
+x0#
+x/#
+x.#
+x-#
+bx ,#
+bx +#
+x*#
+bx )#
+bx (#
+z'#
+bx &#
+bx %#
+bx $#
+bx ##
+bx "#
+x!#
+bx ~"
+bx }"
+bx |"
+bx {"
+bx z"
+bx y"
+xx"
+bx w"
+bx v"
+bx u"
+bx t"
+bx s"
+bx r"
+bx q"
+bx p"
+bx o"
+xn"
+xm"
+bx l"
+bx k"
+0j"
+bx i"
+bx h"
+bx g"
+bx f"
+bx e"
+bx d"
+bx c"
+bx b"
+bx a"
+0`"
+bx _"
+bx ^"
+bx ]"
+x\"
+x["
+xZ"
+xY"
+xX"
+xW"
+xV"
+xU"
+xT"
+xS"
+xR"
+bx Q"
+bx P"
+xO"
+bx N"
+bx M"
+zL"
+bx K"
+bx J"
+bx I"
+bx H"
+bx G"
+xF"
+bx E"
+bx D"
+bx C"
+bx B"
+bx A"
+bx @"
+x?"
+bx >"
+bx ="
+bx <"
+bx ;"
+bx :"
+bx 9"
+bx 8"
+bx 7"
+bx 6"
+x5"
+x4"
+bx 3"
+bx 2"
+01"
+bx 0"
+bx /"
+bx ."
+bx -"
+bx ,"
+bx +"
+bx *"
+bx )"
+bx ("
+0'"
+bx &"
+bx %"
+bx $"
+x#"
+x""
+x!"
+x~
+x}
+x|
+x{
+xz
+xy
+xx
+xw
+bx v
+bx u
+xt
+bx s
+bx r
+zq
+bx p
+bx o
+bx n
+bx m
+bx l
+xk
+bx j
+bx i
+bx h
+bx g
+bx f
+bx e
+xd
+bx c
+bx b
+bx a
+bx `
+bx _
+bx ^
+bx ]
+bx \
+bx [
+xZ
+xY
+bx X
+bx W
+0V
+bx U
+bx T
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+0L
+bx K
+bx J
+bx I
+xH
+xG
+xF
+xE
+xD
+xC
+xB
+xA
+x@
+x?
+x>
+bx =
+bx <
+x;
+bx :
+bx 9
+z8
+b1000010100001111100011110101110 7
+b1000000000010000000000011000000000100000000000101000000000110000000000111000000001000000000001001 6
+b0 5
+b11000000000101000000000111000000000100000000000110000000000100000000000101000000000110000000001000000000001001000000001000000000001001000000001000000000001001000000001001000000001000000000001001111111111011111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 4
+b10 3
+b1000010100001111100011110101110 2
+b11001010100001010011000111001111100011001010011 1
+00
+b1000010100001111100011110101110 /
+b1000010100001111100011110101110 .
+b1000010100001111100011110101110 -
+b0 ,
+0+
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#40
+1+
+#80
+b1 ,
+0+
+#120
+1+
+#160
+b10 ,
+0+
+#200
+1+
+#240
+b11 ,
+0+
+#280
+1+
+#320
+b0x U
+b0x 0"
+b0x i"
+b0x D#
+b0x }#
+b0x X$
+b0x 3%
+b0x l%
+b0x G&
+b0x "'
+0M'
+0L'
+0K'
+0J'
+1I'
+0H'
+1G'
+0F'
+0E'
+1D'
+b1000001100101110101110000101001 N'
+b1000001100101110101110000101001 7)
+b1000001100101110101110000101001 i)
+b0 A'
+b0 ?'
+b0 C'
+b10 O'
+0_'
+0^'
+0]'
+0\'
+1['
+0Z'
+1Y'
+0X'
+0W'
+1V'
+b1000001100101110101110000101001 `'
+b1000001100101110101110000101001 F*
+b1000001100101110101110000101001 x*
+b0 S'
+b0 Q'
+b0 U'
+b10 a'
+0q'
+0p'
+0o'
+0n'
+1m'
+0l'
+1k'
+0j'
+0i'
+1h'
+b1000001100101110101110000101001 r'
+b1000001100101110101110000101001 U+
+b1000001100101110101110000101001 ),
+b0 e'
+b0 c'
+b0 g'
+b10 s'
+0%(
+0$(
+0#(
+0"(
+1!(
+0~'
+1}'
+0|'
+0{'
+1z'
+b1000001100101110101110000101001 &(
+b1000001100101110101110000101001 d,
+b1000001100101110101110000101001 8-
+b0 w'
+b0 u'
+b0 y'
+b10 '(
+07(
+06(
+05(
+04(
+13(
+02(
+11(
+00(
+0/(
+1.(
+b1000001100101110101110000101001 8(
+b1000001100101110101110000101001 s-
+b1000001100101110101110000101001 G.
+b0 +(
+b0 )(
+b0 -(
+b10 9(
+0I(
+0H(
+0G(
+0F(
+1E(
+0D(
+1C(
+0B(
+0A(
+1@(
+b1000001100101110101110000101001 J(
+b1000001100101110101110000101001 $/
+b1000001100101110101110000101001 V/
+b0 =(
+b0 ;(
+b0 ?(
+b10 K(
+0[(
+0Z(
+0Y(
+0X(
+1W(
+0V(
+1U(
+0T(
+0S(
+1R(
+b1000001100101110101110000101001 \(
+b1000001100101110101110000101001 30
+b1000001100101110101110000101001 e0
+b0 O(
+b0 M(
+b0 Q(
+b10 ](
+0m(
+0l(
+0k(
+0j(
+1i(
+0h(
+1g(
+0f(
+0e(
+1d(
+b1000001100101110101110000101001 n(
+b1000001100101110101110000101001 B1
+b1000001100101110101110000101001 t1
+b0 a(
+b0 _(
+b0 c(
+b10 o(
+0!)
+0~(
+0}(
+0|(
+1{(
+0z(
+1y(
+0x(
+0w(
+1v(
+b1000001100101110101110000101001 ")
+b1000001100101110101110000101001 Q2
+b1000001100101110101110000101001 %3
+b0 s(
+b0 q(
+b0 u(
+b10 #)
+03)
+02)
+01)
+00)
+1/)
+0.)
+1-)
+0,)
+0+)
+1*)
+b1000001100101110101110000101001 4)
+b1000001100101110101110000101001 `3
+b1000001100101110101110000101001 44
+b0 ')
+b0 %)
+b0 ))
+b10 5)
+0G)
+0K)
+0V*
+0Z*
+0e+
+0i+
+0t,
+0x,
+0%.
+0).
+04/
+08/
+0C0
+0G0
+0R1
+0V1
+0a2
+0e2
+0p3
+0t3
+10
+b0 ,
+0+
+#360
+1+
+#400
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0I'
+0G'
+0D'
+b0 N'
+b0 7)
+b0 i)
+b0 O'
+0+
+b1111111000 >'
+#440
+1+
+#480
+b10 ,
+0+
+#520
+1+
+#560
+b11 ,
+0+
+#600
+1+
+#640
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#680
+1+
+#720
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#760
+1+
+#800
+b10 ,
+0+
+#840
+1+
+#880
+b11 ,
+0+
+#920
+1+
+#960
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#1000
+1+
+#1040
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#1080
+1+
+#1120
+b10 ,
+0+
+#1160
+1+
+#1200
+b11 ,
+0+
+#1240
+1+
+#1280
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#1320
+1+
+#1360
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#1400
+1+
+#1440
+b10 ,
+0+
+#1480
+1+
+#1520
+b11 ,
+0+
+#1560
+1+
+#1600
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#1640
+1+
+#1680
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#1720
+1+
+#1760
+b10 ,
+0+
+#1800
+1+
+#1840
+b11 ,
+0+
+#1880
+1+
+#1920
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#1960
+1+
+#2000
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#2040
+1+
+#2080
+b10 ,
+0+
+#2120
+1+
+#2160
+b11 ,
+0+
+#2200
+1+
+#2240
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#2280
+1+
+#2320
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#2360
+1+
+#2400
+b10 ,
+0+
+#2440
+1+
+#2480
+b11 ,
+0+
+#2520
+1+
+#2560
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#2600
+1+
+#2640
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#2680
+1+
+#2720
+b10 ,
+0+
+#2760
+1+
+#2800
+b11 ,
+0+
+#2840
+1+
+#2880
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#2920
+1+
+#2960
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#3000
+1+
+#3040
+b10 ,
+0+
+#3080
+1+
+#3120
+b11 ,
+0+
+#3160
+1+
+#3200
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#3240
+1+
+#3280
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#3320
+1+
+#3360
+b10 ,
+0+
+#3400
+1+
+#3440
+b11 ,
+0+
+#3480
+1+
+#3520
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#3560
+1+
+#3600
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#3640
+1+
+#3680
+b10 ,
+0+
+#3720
+1+
+#3760
+b11 ,
+0+
+#3800
+1+
+#3840
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#3880
+1+
+#3920
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#3960
+1+
+#4000
+b10 ,
+0+
+#4040
+1+
+#4080
+b11 ,
+0+
+#4120
+1+
+#4160
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#4200
+1+
+#4240
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#4280
+1+
+#4320
+b10 ,
+0+
+#4360
+1+
+#4400
+b11 ,
+0+
+#4440
+1+
+#4480
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#4520
+1+
+#4560
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#4600
+1+
+#4640
+b10 ,
+0+
+#4680
+1+
+#4720
+b11 ,
+0+
+#4760
+1+
+#4800
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#4840
+1+
+#4880
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#4920
+1+
+#4960
+b10 ,
+0+
+#5000
+1+
+#5040
+b11 ,
+0+
+#5080
+1+
+#5120
+b0 U'
+b0 g'
+b0 y'
+b0 -(
+b0 ?(
+b0 Q(
+b0 c(
+b0 u(
+b0 ))
+10
+b0 ,
+0+
+#5160
+1+
+#5200
+b10 U'
+b10 g'
+b10 y'
+b10 -(
+b10 ?(
+b10 Q(
+b10 c(
+b10 u(
+b10 ))
+00
+b1 ,
+0+
+#5240
+1+
+#5280
+b10 ,
+0+
+#5320
+1+
+#5360
+b11 ,
+0+
+#5400
+1+

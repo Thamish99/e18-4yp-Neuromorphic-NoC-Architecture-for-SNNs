@@ -1,0 +1,94 @@
+[*]
+[*] GTKWave Analyzer v3.3.117 (w)1999-2023 BSI
+[*] Sat Jun 29 08:13:54 2024
+[*]
+[dumpfile] "/mnt/c/Users/thami/OneDrive - University of Peradeniya/8th Semester/CO425 - Final Year Project/e18-4yp-Neuromorphic-NoC-Architecture-for-SNNs/code/e18-verilog-tb/src/testbench.vcd"
+[dumpfile_mtime] "Sat Jun 29 07:42:59 2024"
+[dumpfile_size] 1225709
+[savefile] "/mnt/c/Users/thami/OneDrive - University of Peradeniya/8th Semester/CO425 - Final Year Project/e18-4yp-Neuromorphic-NoC-Architecture-for-SNNs/code/e18-verilog-tb/src/10_neuron_gtkwave.gtkw"
+[timestart] 0
+[size] 1366 697
+[pos] -35 -35
+*-17.005220 156000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[sst_width] 239
+[signals_width] 254
+[sst_expanded] 1
+[sst_vpaned_height] 186
+@29
+testbench.m0.CLK_Mac
+@28
+testbench.m0.clear
+testbench.m9.set
+@200
+-Neuron 0
+@28
+testbench.ni1.spike0
+testbench.m0.mult_output[31:0]
+testbench.pd0.output_potential_decay[31:0]
+testbench.pa0.final_potential[31:0]
+@200
+-Neuron 1
+@28
+testbench.ni1.spike1
+testbench.m1.mult_output[31:0]
+testbench.pd1.output_potential_decay[31:0]
+testbench.pa1.final_potential[31:0]
+@200
+-Neuron 2
+@28
+testbench.ni1.spike2
+testbench.m2.mult_output[31:0]
+testbench.pd2.output_potential_decay[31:0]
+testbench.pa2.final_potential[31:0]
+testbench.ni1.spike3
+@200
+-Neuron 3
+@28
+testbench.m3.mult_output[31:0]
+testbench.pd3.output_potential_decay[31:0]
+testbench.pa3.final_potential[31:0]
+@200
+-Neuron 4
+@28
+testbench.ni1.spike4
+testbench.m4.mult_output[31:0]
+testbench.pd4.output_potential_decay[31:0]
+testbench.pa4.final_potential[31:0]
+@200
+-Neuron 5
+@28
+testbench.ni1.spike5
+testbench.m5.mult_output[31:0]
+testbench.pd5.output_potential_decay[31:0]
+testbench.pa5.final_potential[31:0]
+@200
+-Neuron 6
+@28
+testbench.ni1.spike6
+testbench.m6.mult_output[31:0]
+testbench.pd6.output_potential_decay[31:0]
+testbench.pa6.final_potential[31:0]
+@200
+-Neuron 7
+@28
+testbench.ni1.spike7
+testbench.m7.mult_output[31:0]
+testbench.pd7.output_potential_decay[31:0]
+testbench.pa7.final_potential[31:0]
+@200
+-Neuron 8
+@28
+testbench.ni1.spike8
+testbench.m8.mult_output[31:0]
+testbench.pd8.output_potential_decay[31:0]
+testbench.pa8.final_potential[31:0]
+@200
+-Neuron 9
+@28
+testbench.ni1.spike9
+testbench.m9.mult_output[31:0]
+testbench.pd9.output_potential_decay[31:0]
+testbench.pa9.final_potential[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

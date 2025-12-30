@@ -24,5 +24,4 @@ module accelerator(
     potential_adder a1(v_threshold, mac_out, decayed_potential, adder_out, spike_adder);
     reset r1(adder_out, spike_adder, v_threshold, potential_to_mem);
     
-
 endmodule
