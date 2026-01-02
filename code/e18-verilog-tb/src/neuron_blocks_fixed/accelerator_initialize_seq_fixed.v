@@ -11,7 +11,7 @@ module snn_flat_tb;
 parameter AW  = 10;                // 1024 neurons
 parameter N   = (1<<AW);
 parameter EAW = 16;                // enough bits for total edges M
-parameter T   = 10;                // timesteps per image (lines in mask .hex)
+parameter T   = 1;                // timesteps per image (lines in mask .hex)
 parameter PULSE_W = 2;             // hold ext_spikes for this many cycles after clear_ev
 
 // ---------- Clock / reset ----------
@@ -73,19 +73,20 @@ initial begin
 
   // Reset & zero inputs
   rst_n      = 1'b0;
-  ext_spikes = {N{1'b0}};
+  ext_spikes <= {N{1'b0}};
   repeat (2) @(posedge CLK);
   rst_n = 1'b1;
 end
-
+/*
 // ---------- Helpful prints ----------
 always @(posedge CLK) begin
   if (bus_valid)
-    $display("%0t BUS: dst=%0d weight=%h", $time, bus_dst_id, bus_weight);
+    if (bus_dst_id >= 1014)
+      $display("%0t BUS: dst=%0d weight=%h", $time, bus_dst_id, bus_weight);
   if (clear_ev)
     $display("%0t CLEAR: spikes_in[15:0]=%h ext[15:0]=%h", $time, spikes[15:0], ext_spikes[15:0]);
 end
-
+*/
 // =====================================================
 // MNIST rate-coded stimulus (Verilog-2001 safe)
 // Drives ext_spikes for PULSE_W cycles after clear_ev
@@ -106,35 +107,51 @@ initial begin
   if (!$value$plusargs("STIM=%s", STIM_FILE))
     STIM_FILE = "stim/stim_masks_0000.hex";
   $display("Loading stimulus: %0s", STIM_FILE);
-  $readmemh(STIM_FILE, stim);
+  $readmemh(STIM_FILE, stim, 0, T-1);
+
 end
 
-// Drive ext_spikes on each clear_ev; hold for PULSE_W cycles
 always @(posedge CLK) begin
   if (!rst_n) begin
     tstep      <= 0;
-    pulse_cnt  <= 0;
     ext_spikes <= {N{1'b0}};
   end else begin
-    if (clear_ev) begin
-      ext_spikes <= stim[tstep];
-      if (PULSE_W > 0) pulse_cnt <= PULSE_W - 1;
-      else             pulse_cnt <= 0;
+    // continuously drive current timestep mask
+    ext_spikes <= stim[tstep];
 
+    // advance timestep on clear
+    if (clear_ev) begin
       if (tstep == T-1) tstep <= 0;
       else              tstep <= tstep + 1;
-    end else if (pulse_cnt != 0) begin
-      pulse_cnt  <= pulse_cnt - 1;
-      ext_spikes <= ext_spikes;           // keep asserted
-    end else begin
-      ext_spikes <= {N{1'b0}};            // deassert between ticks
     end
   end
 end
 
-always @(posedge CLK)
-  if (clear_ev)
-    $display("OUT SPIKES = %b", spikes[1023:1014]);
+
+
+integer k;
+reg [N-1:0] or_all;
+
+initial begin
+  if (!$value$plusargs("STIM=%s", STIM_FILE))
+    STIM_FILE = "stim/stim_masks_0000.hex";
+
+  $display("Loading stimulus: %0s", STIM_FILE);
+
+  $readmemh(STIM_FILE, stim, 0, T-1);
+
+  // Check if anything non-zero loaded
+  or_all = {N{1'b0}};
+  for (k = 0; k < T; k = k + 1)
+    or_all = or_all | stim[k];
+
+  $display("STIM CHECK: (|stim[0])=%b  stim[0][191:176]=%h  stim[0][687:672]=%h  (|all)=%b",
+           (|stim[0]), stim[0][191:176], stim[0][687:672], (|or_all));
+end
+
+
+
+
 
 
 endmodule

@@ -19,12 +19,17 @@ module ni_aer_flat
     output reg  [31:0]        bus_weight,
     output reg                done
 );
-    localparam integer MAXE = (1 << EAW);
+
 
     // CSR tables
     reg [31:0] index_mem [0:N];           // N+1 entries (0..N)
-    reg [31:0] tgt_mem   [0:MAXE-1];
-    reg [31:0] w_mem     [0:MAXE-1];
+
+    parameter integer ECOUNT = 7422;      // number of edges in hex files
+    localparam integer MAXE  = ECOUNT;
+
+    reg [31:0] tgt_mem [0:MAXE-1];
+    reg [31:0] w_mem   [0:MAXE-1];
+
 
     integer i, j;
     initial begin
